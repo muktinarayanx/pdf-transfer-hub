@@ -1,0 +1,43 @@
+name: Daily PDF Transfer Bridge (11:00 PM IST)
+
+on:
+  schedule:
+    # 17:30 UTC = 11:00 PM IST (Indian Standard Time, UTC+5:30)
+    - cron: '30 17 * * *'
+  # Allows manual 1-click trigger anytime from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily-transfer:
+    name: Process & Upload Daily PDF
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Execute Daily PDF Transfer
+        env:
+          WEBSITE_A_URL: ${{ secrets.WEBSITE_A_URL || 'https://pdf-editorx.onrender.com' }}
+          WEBSITE_B_URL: ${{ secrets.WEBSITE_B_URL || 'https://pdf-sender-iaa4.onrender.com' }}
+          WEBSITE_B_EMAIL: ${{ secrets.WEBSITE_B_EMAIL || 'foradvance685@gmail.com' }}
+          WEBSITE_B_PASSWORD: ${{ secrets.WEBSITE_B_PASSWORD || 'admin123' }}
+        run: node scripts/daily-transfer.js
+
+      - name: Commit & Push Advanced Template Back to Repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add template/active_template.pdf template/last_transfer.json
+          git diff --staged --quiet || (git commit -m "chore(cron): auto-advance PDF template for next day [skip ci]" && git push)

@@ -1,0 +1,3414 @@
+{
+  "transfers": [
+    {
+      "id": "45db5a01-e69d-4c15-a5f7-8c72008aaff4",
+      "timestamp": "2026-10-24T00:04:08.146Z",
+      "originalFileName": "All_1.pdf",
+      "generatedFileName": "All_2.pdf",
+      "fileSize": 453325,
+      "sha256Hash": "bdf3ca09d5ffb642e48ad17d0578dfcb9b2bcd347a24071b5d1c9146187cd4a7",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 7329,
+      "websiteAFileId": "7810dabf-b199-47c6-925c-45b93fbea5f7",
+      "websiteBFileId": "6adbf5f66923adbccea46a22",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792800248146_All_2.pdf"
+    },
+    {
+      "id": "77a792ad-4fcc-4f89-abac-2935d7dda539",
+      "timestamp": "2026-10-24T00:02:11.432Z",
+      "originalFileName": "All_31.pdf",
+      "generatedFileName": "All_1.pdf",
+      "fileSize": 453126,
+      "sha256Hash": "dd4780e6c902d50fa74e43c753d2a70c8c1cd710fc46c28d7063cefdc2e66c35",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 10706,
+      "websiteAFileId": "9f0e9e42-7f16-4e56-85cf-2be5c356a422",
+      "websiteBFileId": "6adbf5816923adbccea46a1b",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792800131422_All_1.pdf"
+    },
+    {
+      "id": "0169a699-b29f-440e-92a2-b2511833ab6b",
+      "timestamp": "2026-10-24T00:00:07.960Z",
+      "originalFileName": "All_30.pdf",
+      "generatedFileName": "All_31.pdf",
+      "fileSize": 453098,
+      "sha256Hash": "5b1062f597510f1058497377d52849d6b724298a94fc552c770dc1e014907604",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 7378,
+      "websiteAFileId": "e2bf6919-6876-4269-a4fe-858df15e316e",
+      "websiteBFileId": "6adbf5066923adbccea46a18",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792800007959_All_31.pdf"
+    },
+    {
+      "id": "3d11d0b9-675e-4885-a8ba-75809d656130",
+      "timestamp": "2026-10-23T23:56:05.839Z",
+      "originalFileName": "All_29.pdf",
+      "generatedFileName": "All_30.pdf",
+      "fileSize": 453037,
+      "sha256Hash": "6a62699044b1e3c1fe34194ecae49330a77eea64a74d725c8cd27255f73f5db7",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 4912,
+      "websiteAFileId": "388c75ed-3eed-46d4-85c6-831d38d19c1f",
+      "websiteBFileId": "6adbf4146923adbccea46a04",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792799765838_All_30.pdf"
+    },
+    {
+      "id": "2be2ac92-1a0d-46c3-bed3-14f53fffae9d",
+      "timestamp": "2026-10-23T23:54:07.620Z",
+      "originalFileName": "All_28.pdf",
+      "generatedFileName": "All_29.pdf",
+      "fileSize": 453028,
+      "sha256Hash": "4b3e2952ae9b0a85bf290c9c4992ee73f27740a4a604f17f432c902217acd7ac",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 6737,
+      "websiteAFileId": "26b09f3b-9166-442c-9522-98a3b99d929e",
+      "websiteBFileId": "6adbf39d6923adbccea469f9",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792799647618_All_29.pdf"
+    },
+    {
+      "id": "7c858697-ea47-4828-8867-983de783e3a3",
+      "timestamp": "2026-10-23T23:52:06.798Z",
+      "originalFileName": "All_27.pdf",
+      "generatedFileName": "All_28.pdf",
+      "fileSize": 453010,
+      "sha256Hash": "736d6f6848573faa674435729e07f9645083393a119ac10c6c40a41bdb720bf4",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 6621,
+      "websiteAFileId": "db28f084-5014-4926-bf08-8727f685b486",
+      "websiteBFileId": "6adbf3256923adbccea469f3",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792799526798_All_28.pdf"
+    },
+    {
+      "id": "87cff3e9-8e20-459d-8b62-cec096a2f5b2",
+      "timestamp": "2026-10-23T23:51:04.847Z",
+      "originalFileName": "All_26.pdf",
+      "generatedFileName": "All_27.pdf",
+      "fileSize": 452992,
+      "sha256Hash": "5a4c1ad1e093ec81e355fc5bd18e13edc3488863dd8bc7f5281bcc34b9758f66",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 12335,
+      "websiteAFileId": "449fd899-772f-4a28-86e4-f243316427d3",
+      "websiteBFileId": "6adbf2e76923adbccea469e9",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792799464846_All_27.pdf"
+    },
+    {
+      "id": "9409bb85-3340-4c7a-a65e-27ef58271c65",
+      "timestamp": "2026-10-23T23:50:00.804Z",
+      "originalFileName": "All_26.pdf",
+      "generatedFileName": "All_26.pdf",
+      "fileSize": 452983,
+      "sha256Hash": "e411faaf3825a1cd56f65a135bc1ce9914e2e25f3ac5bc47849f15fd72089739",
+      "status": "duplicate_skipped",
+      "attempts": 1,
+      "latencyMs": 10,
+      "websiteAFileId": null,
+      "websiteBFileId": "6adbf1436923adbccea469b4",
+      "notes": "Skipped upload: matches existing transfer ID b0899d68-90a0-40c1-accc-8147025f5b5f",
+      "errorMessage": null,
+      "cachedFilePath": null
+    },
+    {
+      "id": "9b8642ee-3aca-4a51-a003-9a645237673a",
+      "timestamp": "2026-10-23T23:48:00.545Z",
+      "originalFileName": "All_26.pdf",
+      "generatedFileName": "All_26.pdf",
+      "fileSize": 452983,
+      "sha256Hash": "e411faaf3825a1cd56f65a135bc1ce9914e2e25f3ac5bc47849f15fd72089739",
+      "status": "duplicate_skipped",
+      "attempts": 1,
+      "latencyMs": 9,
+      "websiteAFileId": null,
+      "websiteBFileId": "6adbf1436923adbccea469b4",
+      "notes": "Skipped upload: matches existing transfer ID b0899d68-90a0-40c1-accc-8147025f5b5f",
+      "errorMessage": null,
+      "cachedFilePath": null
+    },
+    {
+      "id": "80f98751-b38f-45b5-964c-8c0d6d0b8a10",
+      "timestamp": "2026-10-23T23:46:00.455Z",
+      "originalFileName": "All_26.pdf",
+      "generatedFileName": "All_26.pdf",
+      "fileSize": 452983,
+      "sha256Hash": "e411faaf3825a1cd56f65a135bc1ce9914e2e25f3ac5bc47849f15fd72089739",
+      "status": "duplicate_skipped",
+      "attempts": 1,
+      "latencyMs": 6,
+      "websiteAFileId": null,
+      "websiteBFileId": "6adbf1436923adbccea469b4",
+      "notes": "Skipped upload: matches existing transfer ID b0899d68-90a0-40c1-accc-8147025f5b5f",
+      "errorMessage": null,
+      "cachedFilePath": null
+    },
+    {
+      "id": "b0899d68-90a0-40c1-accc-8147025f5b5f",
+      "timestamp": "2026-10-23T23:44:03.566Z",
+      "originalFileName": "All_25.pdf",
+      "generatedFileName": "All_26.pdf",
+      "fileSize": 452983,
+      "sha256Hash": "e411faaf3825a1cd56f65a135bc1ce9914e2e25f3ac5bc47849f15fd72089739",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 4493,
+      "websiteAFileId": "2d9b0113-22e9-4566-8052-d5298e3df56a",
+      "websiteBFileId": "6adbf1436923adbccea469b4",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792799043565_All_26.pdf"
+    },
+    {
+      "id": "57bc1081-af5d-4a93-a953-ed6e46c7a20b",
+      "timestamp": "2026-10-23T23:44:03.022Z",
+      "originalFileName": "All_25.pdf",
+      "generatedFileName": "All_26.pdf",
+      "fileSize": 452982,
+      "sha256Hash": "efa39c540157b84bb5710a44ce7df844cd0e614a5c868e5a47d99513caeb1458",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 5880,
+      "websiteAFileId": "5e23d451-8525-4663-9a0d-addd85814de5",
+      "websiteBFileId": "6adbf1416923adbccea469b1",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792799043021_All_26.pdf"
+    },
+    {
+      "id": "8e93e3d3-7623-49e2-ac2a-14ed87dda094",
+      "timestamp": "2026-10-23T23:44:00.245Z",
+      "originalFileName": "All_25.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452975,
+      "sha256Hash": "88faa42b814ea8b0d01410ee9b8d332c8bff14222c9f64d3617e84324ebd272a",
+      "status": "duplicate_skipped",
+      "attempts": 1,
+      "latencyMs": 4,
+      "websiteAFileId": null,
+      "websiteBFileId": "6adbf0536923adbccea469ab",
+      "notes": "Skipped upload: matches existing transfer ID faff2c69-4737-4dd9-be2f-e921daf97255",
+      "errorMessage": null,
+      "cachedFilePath": null
+    },
+    {
+      "id": "035d4186-7b23-418a-b765-81a6c0244c1f",
+      "timestamp": "2026-10-23T23:42:00.916Z",
+      "originalFileName": "All_25.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452975,
+      "sha256Hash": "88faa42b814ea8b0d01410ee9b8d332c8bff14222c9f64d3617e84324ebd272a",
+      "status": "duplicate_skipped",
+      "attempts": 1,
+      "latencyMs": 11,
+      "websiteAFileId": null,
+      "websiteBFileId": "6adbf0536923adbccea469ab",
+      "notes": "Skipped upload: matches existing transfer ID faff2c69-4737-4dd9-be2f-e921daf97255",
+      "errorMessage": null,
+      "cachedFilePath": null
+    },
+    {
+      "id": "faff2c69-4737-4dd9-be2f-e921daf97255",
+      "timestamp": "2026-10-23T23:40:05.332Z",
+      "originalFileName": "all 122.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452975,
+      "sha256Hash": "88faa42b814ea8b0d01410ee9b8d332c8bff14222c9f64d3617e84324ebd272a",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 4892,
+      "websiteAFileId": "e71561b7-0745-4352-ab82-dc163267f351",
+      "websiteBFileId": "6adbf0536923adbccea469ab",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792798805331_All_25.pdf"
+    },
+    {
+      "id": "d3ca48c2-74bc-4d05-9b7a-d66794e7142a",
+      "timestamp": "2026-10-23T23:40:01.511Z",
+      "originalFileName": "all 122.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452971,
+      "sha256Hash": "2523e1cd210c842195a7aa523a480f5b073999a70f606591e2304a38af0f64d7",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 8141,
+      "websiteAFileId": "71073022-af3f-4a36-9229-05ad8f36ef2f",
+      "websiteBFileId": "6adbf04f6923adbccea469a8",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792798801509_All_25.pdf"
+    },
+    {
+      "id": "44f47fb0-6078-4379-adf8-8c2b18648fc1",
+      "timestamp": "2026-10-23T23:38:08.048Z",
+      "originalFileName": "all 122.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452971,
+      "sha256Hash": "cdb85074f823032773fe97c93fd071326cfa2f99ea6614a0a7864c20a051ad1d",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 7597,
+      "websiteAFileId": "dbd02313-624f-4975-b5c2-a96e59bc1967",
+      "websiteBFileId": "6adbefde6923adbccea469a4",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792798688046_All_25.pdf"
+    },
+    {
+      "id": "7f4c6899-9e6c-4514-b9a5-45da90cde58c",
+      "timestamp": "2026-10-23T23:36:05.084Z",
+      "originalFileName": "all 122.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452969,
+      "sha256Hash": "56b24defe0b2e910de62143a27d1cbe9c5ca2ac078d0565c4c9d5d674f09313f",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 5069,
+      "websiteAFileId": "fada69e9-410d-495b-a51a-47f61584041e",
+      "websiteBFileId": "6adbef636923adbccea469a1",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792798565083_All_25.pdf"
+    },
+    {
+      "id": "3121d7ae-5366-4759-9909-db1acb172db4",
+      "timestamp": "2026-10-23T23:34:07.555Z",
+      "originalFileName": "all 122.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452975,
+      "sha256Hash": "1c6f5e6e1d5478e19b6f57c72b9663e0ed3ed00e2b10bb1efa895bdb5b116e29",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 6705,
+      "websiteAFileId": "7884cfe1-f61c-46c8-b9a7-0e46f6bd0819",
+      "websiteBFileId": "6adbeeed6923adbccea46997",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792798447555_All_25.pdf"
+    },
+    {
+      "id": "4d92c05c-4e12-42e9-89d6-ed545b198f0d",
+      "timestamp": "2026-10-23T23:32:14.367Z",
+      "originalFileName": "all 122.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452977,
+      "sha256Hash": "84503b30cc24b976502f811c42b7857a86d5611c8b86bbfc18e2da28c588176b",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 5963,
+      "websiteAFileId": "7d938849-fdc7-4ecc-b2df-eb753acbff05",
+      "websiteBFileId": "6adbee7c6923adbccea46984",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792798334366_All_25.pdf"
+    },
+    {
+      "id": "2d2377f4-a1eb-4b16-a556-35e727a69747",
+      "timestamp": "2026-10-23T23:32:05.627Z",
+      "originalFileName": "all 122.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452972,
+      "sha256Hash": "b9cf0b261c953bdb0a4c87ed37e04da478bf1b0ff788ea854524571af0a05668",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 4907,
+      "websiteAFileId": "10d403d9-9428-4205-8857-ba91ebfb1210",
+      "websiteBFileId": "6adbee736923adbccea46981",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792798325626_All_25.pdf"
+    },
+    {
+      "id": "44f87e82-ee05-4705-bb08-22682aad145d",
+      "timestamp": "2026-10-23T23:30:07.991Z",
+      "originalFileName": "all 122.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 452974,
+      "sha256Hash": "6c1626bf802c16b5bd06af315e31cc9ddefa8e8522bf4147907f7eee421f6c91",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 7587,
+      "websiteAFileId": "0c419da6-035d-4cf6-9964-c14b7cb4b78f",
+      "websiteBFileId": "6adbedfe6923adbccea4697b",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792798207989_All_25.pdf"
+    },
+    {
+      "id": "60aa57d0-186e-46fd-9cd2-2f4e564217fd",
+      "timestamp": "2026-10-23T23:11:11.853Z",
+      "originalFileName": "Daily_Automated_Chalan.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 444526,
+      "sha256Hash": "36d37c7a675174fdc45519bfaee085f319a8584aad384de6e56fbdf38400dfeb",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 6581,
+      "websiteAFileId": "88bd77d4-c9fa-4765-bd4b-0bb1e55fde2f",
+      "websiteBFileId": "6adbe98e6923adbccea46952",
+      "notes": "Updated 24 fields across 6 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792797071850_All_25.pdf"
+    },
+    {
+      "id": "22d5565a-0f78-419c-bf42-de105e5c2d92",
+      "timestamp": "2026-10-23T23:09:26.381Z",
+      "originalFileName": "Live_Cloud_Transfer.pdf",
+      "generatedFileName": "All_25.pdf",
+      "fileSize": 444527,
+      "sha256Hash": "09c2caf3d45d0a24aac7fe1f80f96355ced25418f87620115d78e65bbc29a315",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 2476,
+      "websiteAFileId": "ce3c71bb-1a7f-4006-a073-a0041af5820d",
+      "websiteBFileId": "6adbe9261747dd3473709999",
+      "notes": "Updated 24 fields across 6 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792796966380_All_25.pdf"
+    },
+    {
+      "id": "23d70cb3-a943-4d03-8b77-d101d818cb70",
+      "timestamp": "2026-10-23T22:53:05.911Z",
+      "originalFileName": "Duplicate_Check.pdf",
+      "generatedFileName": "All_24.pdf",
+      "fileSize": 444524,
+      "sha256Hash": "6a2af51ed120c69adc8a9e42ee30afd127f3d9005cd495ba79e46ba83cb0637b",
+      "status": "duplicate_skipped",
+      "attempts": 1,
+      "latencyMs": 16,
+      "websiteAFileId": null,
+      "websiteBFileId": "6adbe5191747dd347370998d",
+      "notes": "Skipped upload: matches existing transfer ID 1a1522e1-d289-42cc-b5ee-98aa7a5b2d6d",
+      "errorMessage": null,
+      "cachedFilePath": null
+    },
+    {
+      "id": "8d1451ce-0bb2-4006-85af-fded12e8ed57",
+      "timestamp": "2026-10-23T22:52:13.157Z",
+      "originalFileName": "Schedule_Batch_Input.pdf",
+      "generatedFileName": "All_24.pdf",
+      "fileSize": 444522,
+      "sha256Hash": "3fa3fccfe31bbb077e8937f256eac2809131cd4e84f1302831ddd587e3e16895",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 2067,
+      "websiteAFileId": "33ef4e26-1dd4-4abd-9378-e11b740894ba",
+      "websiteBFileId": "6adbe51d1747dd3473709990",
+      "notes": "Updated 24 fields across 6 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792795933156_All_24.pdf"
+    },
+    {
+      "id": "1a1522e1-d289-42cc-b5ee-98aa7a5b2d6d",
+      "timestamp": "2026-10-23T22:52:09.911Z",
+      "originalFileName": "Schedule_Batch_Input.pdf",
+      "generatedFileName": "All_24.pdf",
+      "fileSize": 444524,
+      "sha256Hash": "6a2af51ed120c69adc8a9e42ee30afd127f3d9005cd495ba79e46ba83cb0637b",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 2346,
+      "websiteAFileId": "fb4a06af-a0b7-4f33-9ace-1b0c19608840",
+      "websiteBFileId": "6adbe5191747dd347370998d",
+      "notes": "Updated 24 fields across 6 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792795929910_All_24.pdf"
+    }
+  ],
+  "templates": [
+    {
+      "id": "2ca6f287-f7de-448d-9c13-990d60485cfa",
+      "fileName": "All_2.pdf",
+      "filePath": "F:\\antigravity-codes\\connection\\pdf-transfer-hub\\storage\\source_templates\\1792797927088_all_122.pdf",
+      "fileSize": 453325,
+      "addedDate": "2026-10-23T23:25:27.102Z",
+      "lastProcessedDate": "2026-10-24T00:04:08.155Z",
+      "enabled": true,
+      "lastStatus": "success",
+      "lastGeneratedFileName": "All_2.pdf"
+    }
+  ],
+  "logs": [
+    {
+      "id": "67e2068a-a3f5-43bf-b65a-eb9f670410ec",
+      "timestamp": "2026-10-24T00:04:27.863Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 9 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":1050,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "810d6d62-fae3-45ce-8e55-4a52e5d2f090",
+      "timestamp": "2026-10-24T00:04:26.726Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1588}"
+    },
+    {
+      "id": "dbb44629-dccf-4081-b0cd-cd2023964911",
+      "timestamp": "2026-10-24T00:04:25.111Z",
+      "level": "info",
+      "category": "SYSTEM",
+      "message": "Automation settings updated by administrator.",
+      "details": null
+    },
+    {
+      "id": "8e092fb8-4484-4440-b693-c3b1ed65d299",
+      "timestamp": "2026-10-24T00:04:25.108Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 0 * * *\"",
+      "details": null
+    },
+    {
+      "id": "a24448fd-1c71-4f4e-b0a3-76b2fca481d5",
+      "timestamp": "2026-10-24T00:04:08.157Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_1.pdf\" -> updated to \"All_2.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "d60b5382-7288-4df6-a16a-c880a24fc5f1",
+      "timestamp": "2026-10-24T00:04:08.151Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_2.pdf\" in 7329ms (Attempts: 1)",
+      "details": "{\"transferId\":\"45db5a01-e69d-4c15-a5f7-8c72008aaff4\",\"websiteBFileId\":\"6adbf5f66923adbccea46a22\",\"replacements\":48}"
+    },
+    {
+      "id": "dd6a85db-1b3b-4dcb-b52c-654973b21c8e",
+      "timestamp": "2026-10-24T00:04:08.144Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_2.pdf\" to Website B (ID: 6adbf5f66923adbccea46a22, 453325 bytes in 3555ms)",
+      "details": null
+    },
+    {
+      "id": "33f0f93c-0bf8-4c07-b54b-ec8cb59286c6",
+      "timestamp": "2026-10-24T00:04:04.588Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_2.pdf\" (453325 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "849999e4-4683-4b6f-9de7-3dde4c4be6de",
+      "timestamp": "2026-10-24T00:04:04.586Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "02a27f65-2694-460c-ab95-09b9c76137ea",
+      "timestamp": "2026-10-24T00:04:04.582Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_2.pdf\" (453325 bytes in 3760ms)",
+      "details": null
+    },
+    {
+      "id": "caf95029-212b-4958-b210-a22c872a0165",
+      "timestamp": "2026-10-24T00:04:03.515Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/7810dabf-b199-47c6-925c-45b93fbea5f7?fname=All_2.pdf",
+      "details": null
+    },
+    {
+      "id": "cc452363-5384-404f-98e7-28c7460c3f61",
+      "timestamp": "2026-10-24T00:04:03.513Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_1.pdf\": file_id=7810dabf-b199-47c6-925c-45b93fbea5f7, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "436f8867-37a9-48ab-82a3-99a694d201ee",
+      "timestamp": "2026-10-24T00:04:00.822Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_1.pdf\" (453126 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "8f80f51a-c86d-4a45-86d9-a149cd3111d3",
+      "timestamp": "2026-10-24T00:04:00.820Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "bbe5d739-84d1-47cb-b676-5b469f0b89dd",
+      "timestamp": "2026-10-24T00:04:00.818Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_1.pdf\" (453126 bytes, SHA-256: dd4780e6c902...)",
+      "details": null
+    },
+    {
+      "id": "523c6ec5-347f-4f1e-8d24-aedb7aaaaee1",
+      "timestamp": "2026-10-24T00:04:00.739Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "328d287c-3f7f-41dd-a90d-3d0c34670b28",
+      "timestamp": "2026-10-24T00:04:00.734Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-24T00:04:00.734Z",
+      "details": null
+    },
+    {
+      "id": "26b80957-41ca-47a7-bc7b-670ebaaf71ab",
+      "timestamp": "2026-10-24T00:02:11.758Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_31.pdf\" -> updated to \"All_1.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "f2703336-7641-47e4-8476-51c3e4412935",
+      "timestamp": "2026-10-24T00:02:11.567Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_1.pdf\" in 10706ms (Attempts: 1)",
+      "details": "{\"transferId\":\"77a792ad-4fcc-4f89-abac-2935d7dda539\",\"websiteBFileId\":\"6adbf5816923adbccea46a1b\",\"replacements\":48}"
+    },
+    {
+      "id": "4f74d33f-fb12-4c98-9375-b6b4ab6eb0e4",
+      "timestamp": "2026-10-24T00:02:11.402Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_1.pdf\" to Website B (ID: 6adbf5816923adbccea46a1b, 453126 bytes in 4359ms)",
+      "details": null
+    },
+    {
+      "id": "bbb285ae-4980-42a2-be0e-a0af22776e8e",
+      "timestamp": "2026-10-24T00:02:07.044Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_1.pdf\" (453126 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "b888f6bd-b272-4f06-bd00-548fff1dd79f",
+      "timestamp": "2026-10-24T00:02:06.694Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "beb79ff7-3227-4f41-8368-57abf886ffc0",
+      "timestamp": "2026-10-24T00:02:06.076Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_1.pdf\" (453126 bytes in 5162ms)",
+      "details": null
+    },
+    {
+      "id": "f7f95d5b-6eec-49a9-a32d-17e5f0de4457",
+      "timestamp": "2026-10-24T00:02:03.494Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/9f0e9e42-7f16-4e56-85cf-2be5c356a422?fname=All_1.pdf",
+      "details": null
+    },
+    {
+      "id": "dad363bb-29c3-4fc8-ab1e-36a996d2345a",
+      "timestamp": "2026-10-24T00:02:03.344Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_31.pdf\": file_id=9f0e9e42-7f16-4e56-85cf-2be5c356a422, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "672eafef-7d12-4868-bb21-db1a86a675d9",
+      "timestamp": "2026-10-24T00:02:00.912Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_31.pdf\" (453098 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "04bf5835-d9b9-4fd2-b65e-afd05c7386bf",
+      "timestamp": "2026-10-24T00:02:00.879Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "0d407a04-f68b-41ec-a69b-852db1ce8ad5",
+      "timestamp": "2026-10-24T00:02:00.728Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_31.pdf\" (453098 bytes, SHA-256: 5b1062f59751...)",
+      "details": null
+    },
+    {
+      "id": "d103a9aa-c9da-44f6-84c6-a1b36d4f0f68",
+      "timestamp": "2026-10-24T00:02:00.211Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "0c333d14-04c1-4785-8e88-c5548a5732b8",
+      "timestamp": "2026-10-24T00:02:00.010Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-24T00:02:00.010Z",
+      "details": null
+    },
+    {
+      "id": "c28c5709-db74-4f13-b40d-78c3ee39f1f8",
+      "timestamp": "2026-10-24T00:00:07.969Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_30.pdf\" -> updated to \"All_31.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "5bcf4584-e019-40a8-8376-39c3684526c1",
+      "timestamp": "2026-10-24T00:00:07.963Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_31.pdf\" in 7378ms (Attempts: 1)",
+      "details": "{\"transferId\":\"0169a699-b29f-440e-92a2-b2511833ab6b\",\"websiteBFileId\":\"6adbf5066923adbccea46a18\",\"replacements\":48}"
+    },
+    {
+      "id": "8d7625c0-fde7-4bf4-8f18-a0da648d4deb",
+      "timestamp": "2026-10-24T00:00:07.956Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_31.pdf\" to Website B (ID: 6adbf5066923adbccea46a18, 453098 bytes in 3460ms)",
+      "details": null
+    },
+    {
+      "id": "9add2bb5-5e41-473e-9707-919774ee42ac",
+      "timestamp": "2026-10-24T00:00:04.496Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_31.pdf\" (453098 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "952e04d3-a8ab-4d46-9d7b-c6f766e9833a",
+      "timestamp": "2026-10-24T00:00:04.489Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "6af0edc7-dd1d-4f8a-8f2c-1fbfd04629a0",
+      "timestamp": "2026-10-24T00:00:04.480Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_31.pdf\" (453098 bytes in 3890ms)",
+      "details": null
+    },
+    {
+      "id": "d372aaac-38f1-4a0d-a789-dd250342b6dc",
+      "timestamp": "2026-10-24T00:00:02.511Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/e2bf6919-6876-4269-a4fe-858df15e316e?fname=All_31.pdf",
+      "details": null
+    },
+    {
+      "id": "f7a2fb50-1f3e-4dce-90f2-d70943b6717b",
+      "timestamp": "2026-10-24T00:00:02.509Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_30.pdf\": file_id=e2bf6919-6876-4269-a4fe-858df15e316e, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "74d592c9-6cd6-4868-80f1-5d3b99e9ecee",
+      "timestamp": "2026-10-24T00:00:00.590Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_30.pdf\" (453037 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "a3ae30c9-ada1-4449-9411-91f187fd72d0",
+      "timestamp": "2026-10-24T00:00:00.585Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "2afc211d-50e2-40c9-8462-6d778fc1c220",
+      "timestamp": "2026-10-24T00:00:00.582Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_30.pdf\" (453037 bytes, SHA-256: 6a62699044b1...)",
+      "details": null
+    },
+    {
+      "id": "e4b0b523-3212-41b2-a962-014fcdfaf1bd",
+      "timestamp": "2026-10-24T00:00:00.572Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "e2dd5077-3187-4680-b651-8e071976e64a",
+      "timestamp": "2026-10-24T00:00:00.565Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-24T00:00:00.565Z",
+      "details": null
+    },
+    {
+      "id": "ca40d2f5-9b88-45e8-ace7-845d18cceee1",
+      "timestamp": "2026-10-23T23:59:54.508Z",
+      "level": "info",
+      "category": "SYSTEM",
+      "message": "Automation settings updated by administrator.",
+      "details": null
+    },
+    {
+      "id": "793cf61f-ff2c-4746-a433-9f1795fba943",
+      "timestamp": "2026-10-23T23:59:54.503Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"*/2 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "e85b4ad8-c012-4775-9141-24c4e98d0a87",
+      "timestamp": "2026-10-23T23:59:54.339Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "0e847619-53ac-4625-9a9c-c4c1b7986d35",
+      "timestamp": "2026-10-23T23:57:39.145Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 6 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":976,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "c87812e5-6558-480f-9387-989e679bd61e",
+      "timestamp": "2026-10-23T23:57:38.487Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1482}"
+    },
+    {
+      "id": "3f0597e8-fa3a-4935-ada9-ab06fbe0292b",
+      "timestamp": "2026-10-23T23:57:36.940Z",
+      "level": "info",
+      "category": "SYSTEM",
+      "message": "Automation settings updated by administrator.",
+      "details": null
+    },
+    {
+      "id": "347e4fca-ae7a-4c7d-b981-8c2a9230c653",
+      "timestamp": "2026-10-23T23:57:36.938Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 0 * * *\"",
+      "details": null
+    },
+    {
+      "id": "fa41a57c-7243-4977-8bc5-01bcfb4e1365",
+      "timestamp": "2026-10-23T23:57:24.552Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 0 * * *\"",
+      "details": null
+    },
+    {
+      "id": "56cd3c6c-c1b7-4fad-a7b6-b173496a12b3",
+      "timestamp": "2026-10-23T23:57:17.013Z",
+      "level": "warn",
+      "category": "SCHEDULER",
+      "message": "Scheduler paused by administrator.",
+      "details": null
+    },
+    {
+      "id": "9752f40c-3a84-4aa8-8c91-2b6a9a17c03a",
+      "timestamp": "2026-10-23T23:57:15.624Z",
+      "level": "warn",
+      "category": "SCHEDULER",
+      "message": "Scheduler paused by administrator.",
+      "details": null
+    },
+    {
+      "id": "de141228-b478-414a-8cfa-4518f75f3866",
+      "timestamp": "2026-10-23T23:56:42.813Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 6 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":948,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "5981c761-d160-4d13-83e6-877326c6e2d1",
+      "timestamp": "2026-10-23T23:56:42.542Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1820}"
+    },
+    {
+      "id": "915e8b6b-b3bf-4ee7-bbce-5f4c60e6142e",
+      "timestamp": "2026-10-23T23:56:05.846Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_29.pdf\" -> updated to \"All_30.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "3ef12303-b7c0-4906-b2fb-b8d6a197e9fb",
+      "timestamp": "2026-10-23T23:56:05.841Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_30.pdf\" in 4912ms (Attempts: 1)",
+      "details": "{\"transferId\":\"3d11d0b9-675e-4885-a8ba-75809d656130\",\"websiteBFileId\":\"6adbf4146923adbccea46a04\",\"replacements\":48}"
+    },
+    {
+      "id": "f152c506-7317-4083-a6d6-4141ba0ad9ca",
+      "timestamp": "2026-10-23T23:56:05.837Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_30.pdf\" to Website B (ID: 6adbf4146923adbccea46a04, 453037 bytes in 2514ms)",
+      "details": null
+    },
+    {
+      "id": "308fc8d6-1f71-403b-b8f6-00af05027ba2",
+      "timestamp": "2026-10-23T23:56:03.323Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_30.pdf\" (453037 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "d9d9491d-1ecf-474a-acf4-fd9e641f5c4c",
+      "timestamp": "2026-10-23T23:56:03.321Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "8480e409-1f0b-486d-9836-58a17cb96686",
+      "timestamp": "2026-10-23T23:56:03.318Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_30.pdf\" (453037 bytes in 2384ms)",
+      "details": null
+    },
+    {
+      "id": "6a7d35ee-c0a9-44b3-89ce-76b66621293e",
+      "timestamp": "2026-10-23T23:56:02.677Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/388c75ed-3eed-46d4-85c6-831d38d19c1f?fname=All_30.pdf",
+      "details": null
+    },
+    {
+      "id": "9364a2ab-f4ea-4fb2-bd0f-c102688c85b0",
+      "timestamp": "2026-10-23T23:56:02.676Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_29.pdf\": file_id=388c75ed-3eed-46d4-85c6-831d38d19c1f, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "a666b8d8-ac2c-4f3e-92cf-3e969147e494",
+      "timestamp": "2026-10-23T23:56:00.934Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_29.pdf\" (453028 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "f25c6509-1bee-47a1-83a8-cdabf7589517",
+      "timestamp": "2026-10-23T23:56:00.931Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "f8227684-07d9-412f-8102-8558a0fe3483",
+      "timestamp": "2026-10-23T23:56:00.928Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_29.pdf\" (453028 bytes, SHA-256: 4b3e2952ae9b...)",
+      "details": null
+    },
+    {
+      "id": "cdf25478-e429-4324-a302-848954d3cf96",
+      "timestamp": "2026-10-23T23:56:00.923Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "c4a6effe-9c74-48c3-9663-6b3b21903041",
+      "timestamp": "2026-10-23T23:56:00.921Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:56:00.921Z",
+      "details": null
+    },
+    {
+      "id": "fe82bfbf-4d2b-40b1-99e5-a45856066297",
+      "timestamp": "2026-10-23T23:55:24.187Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 5 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":954,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "4c9f0476-a436-4e40-abc9-6f4dbe41bd5a",
+      "timestamp": "2026-10-23T23:55:23.942Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1938}"
+    },
+    {
+      "id": "edcfc463-e063-4133-928b-18d00f7dea3a",
+      "timestamp": "2026-10-23T23:54:07.637Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_28.pdf\" -> updated to \"All_29.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "7892b0a2-2f8c-407f-9b2f-cc5b04574687",
+      "timestamp": "2026-10-23T23:54:07.628Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_29.pdf\" in 6737ms (Attempts: 1)",
+      "details": "{\"transferId\":\"2be2ac92-1a0d-46c3-bed3-14f53fffae9d\",\"websiteBFileId\":\"6adbf39d6923adbccea469f9\",\"replacements\":48}"
+    },
+    {
+      "id": "c0fb2c6b-ea08-46cb-a9cd-49c688eec9d0",
+      "timestamp": "2026-10-23T23:54:07.610Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_29.pdf\" to Website B (ID: 6adbf39d6923adbccea469f9, 453028 bytes in 3421ms)",
+      "details": null
+    },
+    {
+      "id": "6c4a1c33-a534-4a6f-a3a5-f949bae19adc",
+      "timestamp": "2026-10-23T23:54:04.189Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_29.pdf\" (453028 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "d37643c3-4b4c-4340-8f92-f6e25a0bc98e",
+      "timestamp": "2026-10-23T23:54:04.187Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "683c214d-410a-4b7d-9dd3-17acdafe073a",
+      "timestamp": "2026-10-23T23:54:04.184Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_29.pdf\" (453028 bytes in 3297ms)",
+      "details": null
+    },
+    {
+      "id": "47cf156a-ed31-4239-a4a5-6438bf8414de",
+      "timestamp": "2026-10-23T23:54:03.199Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/26b09f3b-9166-442c-9522-98a3b99d929e?fname=All_29.pdf",
+      "details": null
+    },
+    {
+      "id": "76760660-73c2-4c79-82ef-633a84305c98",
+      "timestamp": "2026-10-23T23:54:03.189Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_28.pdf\": file_id=26b09f3b-9166-442c-9522-98a3b99d929e, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "e6908437-d919-4bfb-9f68-f0cc1afa9776",
+      "timestamp": "2026-10-23T23:54:00.887Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_28.pdf\" (453010 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "90ae57bd-a52c-4f4d-8403-1b7242049681",
+      "timestamp": "2026-10-23T23:54:00.885Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "84a31874-b3a0-44c0-95eb-26d5703d617f",
+      "timestamp": "2026-10-23T23:54:00.883Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_28.pdf\" (453010 bytes, SHA-256: 736d6f684857...)",
+      "details": null
+    },
+    {
+      "id": "1b8c834d-b569-4869-b88a-2129124a4faa",
+      "timestamp": "2026-10-23T23:54:00.869Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "37b81fec-e819-4893-9909-f2657e6dd430",
+      "timestamp": "2026-10-23T23:54:00.862Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:54:00.862Z",
+      "details": null
+    },
+    {
+      "id": "86f6547b-99ea-418d-a4f8-d712bd815cc3",
+      "timestamp": "2026-10-23T23:53:18.511Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 4 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":1101,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "051a5163-e9e7-4d67-aa9c-2faa7d8a694e",
+      "timestamp": "2026-10-23T23:53:17.302Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1364}"
+    },
+    {
+      "id": "95249b2d-8b66-4c03-9b83-07d56994554a",
+      "timestamp": "2026-10-23T23:52:06.807Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_27.pdf\" -> updated to \"All_28.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "455d8dd3-be7c-465e-b0c9-f170faa50dc1",
+      "timestamp": "2026-10-23T23:52:06.801Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_28.pdf\" in 6621ms (Attempts: 1)",
+      "details": "{\"transferId\":\"7c858697-ea47-4828-8867-983de783e3a3\",\"websiteBFileId\":\"6adbf3256923adbccea469f3\",\"replacements\":48}"
+    },
+    {
+      "id": "9e95ca04-e3d2-40a1-b29c-f6d0faa9643e",
+      "timestamp": "2026-10-23T23:52:06.796Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_28.pdf\" to Website B (ID: 6adbf3256923adbccea469f3, 453010 bytes in 2756ms)",
+      "details": null
+    },
+    {
+      "id": "5feaf0a5-89fb-4445-822d-4f2a05786b95",
+      "timestamp": "2026-10-23T23:52:04.040Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_28.pdf\" (453010 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "744fae41-90f4-42d1-99ff-7417bafc137d",
+      "timestamp": "2026-10-23T23:52:04.037Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "364d7d2c-aa7c-4634-a6de-1c29821a658f",
+      "timestamp": "2026-10-23T23:52:04.028Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_28.pdf\" (453010 bytes in 3846ms)",
+      "details": null
+    },
+    {
+      "id": "2ebcf8a5-f9d1-4c4d-8820-54989794d324",
+      "timestamp": "2026-10-23T23:52:02.009Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/db28f084-5014-4926-bf08-8727f685b486?fname=All_28.pdf",
+      "details": null
+    },
+    {
+      "id": "ba344153-ae38-4dca-9a5c-d71034b5569f",
+      "timestamp": "2026-10-23T23:52:02.005Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_27.pdf\": file_id=db28f084-5014-4926-bf08-8727f685b486, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "f7103332-e816-48a3-a14c-817837ffa9bc",
+      "timestamp": "2026-10-23T23:52:00.182Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_27.pdf\" (452992 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "44c0854c-1e55-428f-8e7a-f8b404dbf74c",
+      "timestamp": "2026-10-23T23:52:00.180Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "448dc33a-a660-4e4c-9b54-a35d4314d85b",
+      "timestamp": "2026-10-23T23:52:00.178Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_27.pdf\" (452992 bytes, SHA-256: 5a4c1ad1e093...)",
+      "details": null
+    },
+    {
+      "id": "fb9f3840-cff6-42cb-bbe1-7f2a4535c1cf",
+      "timestamp": "2026-10-23T23:52:00.172Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "98038e61-0f76-48eb-8126-6f67eb648dde",
+      "timestamp": "2026-10-23T23:52:00.161Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:52:00.161Z",
+      "details": null
+    },
+    {
+      "id": "6600a864-9c0a-493a-8846-0c2c8729fcbb",
+      "timestamp": "2026-10-23T23:51:04.856Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_26.pdf\" -> updated to \"All_27.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "0e13b954-95b7-4734-abdd-7f7cb5ca1c2b",
+      "timestamp": "2026-10-23T23:51:04.850Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_27.pdf\" in 12335ms (Attempts: 1)",
+      "details": "{\"transferId\":\"87cff3e9-8e20-459d-8b62-cec096a2f5b2\",\"websiteBFileId\":\"6adbf2e76923adbccea469e9\",\"replacements\":48}"
+    },
+    {
+      "id": "8414f524-81de-482d-81d7-7234a9c1002a",
+      "timestamp": "2026-10-23T23:51:04.844Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_27.pdf\" to Website B (ID: 6adbf2e76923adbccea469e9, 452992 bytes in 4596ms)",
+      "details": null
+    },
+    {
+      "id": "d7c98848-386c-4d9e-9a5a-fe4145254bdf",
+      "timestamp": "2026-10-23T23:51:02.281Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_27.pdf\" (452992 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "bd2e9aec-958a-4de1-ad73-be37d16e51aa",
+      "timestamp": "2026-10-23T23:51:02.232Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Authenticated successfully as foradvance685@gmail.com (uploader) on Website B in 1971ms",
+      "details": null
+    },
+    {
+      "id": "31d5ec13-bfae-48b8-86f1-4ecfddf932fe",
+      "timestamp": "2026-10-23T23:51:00.228Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "7d564dfc-c16a-4a1c-91c5-f3a181b4f48b",
+      "timestamp": "2026-10-23T23:51:00.198Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_27.pdf\" (452992 bytes in 7671ms)",
+      "details": null
+    },
+    {
+      "id": "aa498421-615e-4062-8a79-2e0fc1b6aefa",
+      "timestamp": "2026-10-23T23:50:58.731Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/449fd899-772f-4a28-86e4-f243316427d3?fname=All_27.pdf",
+      "details": null
+    },
+    {
+      "id": "4ac88f07-7be2-4dd3-b13b-3f75a28396fc",
+      "timestamp": "2026-10-23T23:50:58.714Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_26.pdf\": file_id=449fd899-772f-4a28-86e4-f243316427d3, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "e8c7790c-39a8-480f-bc7e-d052b12a2dcb",
+      "timestamp": "2026-10-23T23:50:52.527Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_26.pdf\" (452983 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "1d4fae68-4a3b-4b62-b894-f774949a01a1",
+      "timestamp": "2026-10-23T23:50:52.518Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "35161c97-5434-4c47-bee3-8ad7030c5945",
+      "timestamp": "2026-10-23T23:50:52.514Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_26.pdf\" (452983 bytes, SHA-256: e411faaf3825...)",
+      "details": null
+    },
+    {
+      "id": "9af6f6c4-036c-49c8-963f-ac345b6e5dd3",
+      "timestamp": "2026-10-23T23:50:52.500Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "be06ac9b-faad-4556-802e-588ee8a313a9",
+      "timestamp": "2026-10-23T23:50:52.461Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⚡ Manual \"Run Now\" triggered by administrator at 2026-10-23T23:50:52.461Z",
+      "details": null
+    },
+    {
+      "id": "a92cddcc-321d-4223-b719-f04e75e51719",
+      "timestamp": "2026-10-23T23:50:52.276Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "c575eed3-21f1-43db-87c7-f58f59f561e0",
+      "timestamp": "2026-10-23T23:50:23.980Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"*/2 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "a017e5bf-56b8-4a5b-9ccb-4c779fdce460",
+      "timestamp": "2026-10-23T23:50:23.967Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "Initializing background scheduler. Schedule: \"*/2 * * * *\", Enabled: true",
+      "details": null
+    },
+    {
+      "id": "83efe68a-7185-45b1-b2b9-61cb6debcb11",
+      "timestamp": "2026-10-23T23:50:00.802Z",
+      "level": "warn",
+      "category": "TRANSFER",
+      "message": "Duplicate detected: identical file \"All_26.pdf\" already transferred on 2026-10-23T23:44:03.566Z. Skipping upload.",
+      "details": null
+    },
+    {
+      "id": "19b2925d-d724-4f89-a1cb-33af73247e46",
+      "timestamp": "2026-10-23T23:50:00.795Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_26.pdf\" (452983 bytes, SHA-256: e411faaf3825...)",
+      "details": null
+    },
+    {
+      "id": "671e98c7-744f-4572-9325-cea5bd4f7362",
+      "timestamp": "2026-10-23T23:50:00.787Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "c126922c-d536-4b5c-9616-7b9956c7ac3a",
+      "timestamp": "2026-10-23T23:50:00.784Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:50:00.784Z",
+      "details": null
+    },
+    {
+      "id": "88c58fcc-1740-4e5f-a49b-5832484ea5c6",
+      "timestamp": "2026-10-23T23:48:08.549Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 2 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":852,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "e6f078ee-edd2-4dda-b06d-f1ca41d79db6",
+      "timestamp": "2026-10-23T23:48:07.311Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":631}"
+    },
+    {
+      "id": "393ab720-5ee8-443f-9167-d48b29e5a161",
+      "timestamp": "2026-10-23T23:48:06.669Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1918}"
+    },
+    {
+      "id": "0f299604-5ab7-4950-9e2f-4e13303b1698",
+      "timestamp": "2026-10-23T23:48:06.363Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 2 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":483,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "d3499e8f-1e89-491d-877d-703c118525e2",
+      "timestamp": "2026-10-23T23:48:00.541Z",
+      "level": "warn",
+      "category": "TRANSFER",
+      "message": "Duplicate detected: identical file \"All_26.pdf\" already transferred on 2026-10-23T23:44:03.566Z. Skipping upload.",
+      "details": null
+    },
+    {
+      "id": "ef398a9d-f7df-4521-aecd-5b16abd524af",
+      "timestamp": "2026-10-23T23:48:00.538Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_26.pdf\" (452983 bytes, SHA-256: e411faaf3825...)",
+      "details": null
+    },
+    {
+      "id": "7c8d7bac-6212-49b9-83de-3759f0643436",
+      "timestamp": "2026-10-23T23:48:00.530Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "99cef80b-af60-4537-a11e-2eee4f54050c",
+      "timestamp": "2026-10-23T23:48:00.526Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:48:00.526Z",
+      "details": null
+    },
+    {
+      "id": "acfabd37-1ee7-4cd0-9a45-2120eb2ae53a",
+      "timestamp": "2026-10-23T23:46:56.928Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 2 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":476,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "f61fa5ba-cc90-4d11-b61e-5ef7b7bbcd9b",
+      "timestamp": "2026-10-23T23:46:56.834Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1535}"
+    },
+    {
+      "id": "9368a671-b9c9-4b53-9cab-3e4a9447be85",
+      "timestamp": "2026-10-23T23:46:00.451Z",
+      "level": "warn",
+      "category": "TRANSFER",
+      "message": "Duplicate detected: identical file \"All_26.pdf\" already transferred on 2026-10-23T23:44:03.566Z. Skipping upload.",
+      "details": null
+    },
+    {
+      "id": "a5204c61-c834-4c15-a188-f09b0df5ba77",
+      "timestamp": "2026-10-23T23:46:00.449Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_26.pdf\" (452983 bytes, SHA-256: e411faaf3825...)",
+      "details": null
+    },
+    {
+      "id": "670f3066-1e0f-4cea-895c-0fb6188fd518",
+      "timestamp": "2026-10-23T23:46:00.444Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "5afd71ce-aae8-4223-a921-2d09a1f5184e",
+      "timestamp": "2026-10-23T23:46:00.441Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:46:00.441Z",
+      "details": null
+    },
+    {
+      "id": "b503a1ec-85ed-4070-bc87-849084a865c9",
+      "timestamp": "2026-10-23T23:44:03.574Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_25.pdf\" -> updated to \"All_26.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "0ec2fd59-b765-41e2-83b7-a04fb6305b3d",
+      "timestamp": "2026-10-23T23:44:03.569Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_26.pdf\" in 4493ms (Attempts: 1)",
+      "details": "{\"transferId\":\"b0899d68-90a0-40c1-accc-8147025f5b5f\",\"websiteBFileId\":\"6adbf1436923adbccea469b4\",\"replacements\":48}"
+    },
+    {
+      "id": "37309769-1505-4212-b35c-754c1a64f2b9",
+      "timestamp": "2026-10-23T23:44:03.562Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_26.pdf\" to Website B (ID: 6adbf1436923adbccea469b4, 452983 bytes in 1341ms)",
+      "details": null
+    },
+    {
+      "id": "7b7a293f-30d3-42aa-af68-ce6c2b09d734",
+      "timestamp": "2026-10-23T23:44:03.028Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"All_25.pdf\" -> updated to \"All_26.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "56f182a1-9fee-4a6d-8f15-520aa610a806",
+      "timestamp": "2026-10-23T23:44:03.025Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_26.pdf\" in 5880ms (Attempts: 1)",
+      "details": "{\"transferId\":\"57bc1081-af5d-4a93-a953-ed6e46c7a20b\",\"websiteBFileId\":\"6adbf1416923adbccea469b1\",\"replacements\":48}"
+    },
+    {
+      "id": "71038b91-2ed4-411f-91ad-bf0920f82838",
+      "timestamp": "2026-10-23T23:44:03.019Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_26.pdf\" to Website B (ID: 6adbf1416923adbccea469b1, 452982 bytes in 3679ms)",
+      "details": null
+    },
+    {
+      "id": "9d336178-1fdb-4a24-b9a4-64aae47737b8",
+      "timestamp": "2026-10-23T23:44:02.221Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_26.pdf\" (452983 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "a35686de-6510-4afa-a12f-a7dd696b5e2e",
+      "timestamp": "2026-10-23T23:44:02.218Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "ecf39b1b-b76a-494b-acaa-c9e5aa5048de",
+      "timestamp": "2026-10-23T23:44:02.212Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_26.pdf\" (452983 bytes in 3135ms)",
+      "details": null
+    },
+    {
+      "id": "d0c05f31-de22-4709-975a-f8b8dbf806e9",
+      "timestamp": "2026-10-23T23:44:01.524Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/2d9b0113-22e9-4566-8052-d5298e3df56a?fname=All_26.pdf",
+      "details": null
+    },
+    {
+      "id": "491ba41c-335b-4504-bb15-a61679d54c13",
+      "timestamp": "2026-10-23T23:44:01.520Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_25.pdf\": file_id=2d9b0113-22e9-4566-8052-d5298e3df56a, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "f5a6b978-6561-4d2d-a7c6-844deb476051",
+      "timestamp": "2026-10-23T23:44:00.244Z",
+      "level": "warn",
+      "category": "TRANSFER",
+      "message": "Duplicate detected: identical file \"All_25.pdf\" already transferred on 2026-10-23T23:40:05.332Z. Skipping upload.",
+      "details": null
+    },
+    {
+      "id": "db5c12d3-dcb4-4f3e-9797-e2a98024059b",
+      "timestamp": "2026-10-23T23:44:00.242Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_25.pdf\" (452975 bytes, SHA-256: 88faa42b814e...)",
+      "details": null
+    },
+    {
+      "id": "226d5d44-6a43-406c-87de-e5da3b510195",
+      "timestamp": "2026-10-23T23:44:00.237Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "e6bbe7cf-485b-4b6a-8ffe-bf926d0e16e1",
+      "timestamp": "2026-10-23T23:44:00.234Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:44:00.234Z",
+      "details": null
+    },
+    {
+      "id": "5be92af0-bd71-407c-b8ed-bfff327b79ef",
+      "timestamp": "2026-10-23T23:43:59.340Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_26.pdf\" (452982 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "107f9d88-52e3-42f3-ae8b-53466a6aa3f3",
+      "timestamp": "2026-10-23T23:43:59.339Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "8374a701-08f0-4aed-a78a-1558a19e73ce",
+      "timestamp": "2026-10-23T23:43:59.335Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_26.pdf\" (452982 bytes in 2189ms)",
+      "details": null
+    },
+    {
+      "id": "3c4a19e6-3914-4f09-a675-267edcc7617a",
+      "timestamp": "2026-10-23T23:43:59.077Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_25.pdf\" (452975 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "76663bce-1987-4b02-9eda-d4441f63220e",
+      "timestamp": "2026-10-23T23:43:59.075Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "b7bd74cf-fa0c-41a3-85fa-5f7ea43ecdd2",
+      "timestamp": "2026-10-23T23:43:59.073Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_25.pdf\" (452975 bytes, SHA-256: 88faa42b814e...)",
+      "details": null
+    },
+    {
+      "id": "d07c561e-bb51-42f2-b3a7-e8d7676918cc",
+      "timestamp": "2026-10-23T23:43:58.679Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/5e23d451-8525-4663-9a0d-addd85814de5?fname=All_26.pdf",
+      "details": null
+    },
+    {
+      "id": "e541ec8e-6f0b-4831-b43a-d4d9eeabeeb5",
+      "timestamp": "2026-10-23T23:43:58.677Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"All_25.pdf\": file_id=5e23d451-8525-4663-9a0d-addd85814de5, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "463326c5-1dc0-4703-803b-21d08f067eac",
+      "timestamp": "2026-10-23T23:43:57.146Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"All_25.pdf\" (452975 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "886a925f-8a63-46f0-bd53-63b7e548fa30",
+      "timestamp": "2026-10-23T23:43:57.144Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "105187bd-7174-4053-a8a2-e7b70a816e44",
+      "timestamp": "2026-10-23T23:43:57.143Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_25.pdf\" (452975 bytes, SHA-256: 88faa42b814e...)",
+      "details": null
+    },
+    {
+      "id": "af2e843e-8d38-44ab-b445-81011e27108a",
+      "timestamp": "2026-10-23T23:42:00.908Z",
+      "level": "warn",
+      "category": "TRANSFER",
+      "message": "Duplicate detected: identical file \"All_25.pdf\" already transferred on 2026-10-23T23:40:05.332Z. Skipping upload.",
+      "details": null
+    },
+    {
+      "id": "96598127-a1b5-4b73-ac3d-77357020bef2",
+      "timestamp": "2026-10-23T23:42:00.904Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"All_25.pdf\" (452975 bytes, SHA-256: 88faa42b814e...)",
+      "details": null
+    },
+    {
+      "id": "427fe021-85cd-4a2e-ba38-3515c4a10cd7",
+      "timestamp": "2026-10-23T23:42:00.871Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "f9da94fc-e3f9-4ec2-868f-05aa0b7c6f36",
+      "timestamp": "2026-10-23T23:42:00.862Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:42:00.862Z",
+      "details": null
+    },
+    {
+      "id": "912d56ad-3c6f-4687-9d82-fc08c6abe509",
+      "timestamp": "2026-10-23T23:40:24.768Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 5 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":436,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "6694bcd2-b3de-418b-bb6a-cc841c371504",
+      "timestamp": "2026-10-23T23:40:24.067Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":895}"
+    },
+    {
+      "id": "99f3d745-e656-4afe-93f4-726ca5083129",
+      "timestamp": "2026-10-23T23:40:05.344Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"all 122.pdf\" -> updated to \"All_25.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "f38bfeec-add2-4c7c-9454-ac5d1afe9897",
+      "timestamp": "2026-10-23T23:40:05.337Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 4892ms (Attempts: 1)",
+      "details": "{\"transferId\":\"faff2c69-4737-4dd9-be2f-e921daf97255\",\"websiteBFileId\":\"6adbf0536923adbccea469ab\",\"replacements\":48}"
+    },
+    {
+      "id": "16dc2713-a50a-4e51-a21e-9092d13f4952",
+      "timestamp": "2026-10-23T23:40:05.327Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbf0536923adbccea469ab, 452975 bytes in 2245ms)",
+      "details": null
+    },
+    {
+      "id": "98b0661b-4bbf-40f0-937e-b7ea92e330f9",
+      "timestamp": "2026-10-23T23:40:03.082Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (452975 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "9b64bbc9-4174-4e10-9b86-c2ae747fdc7e",
+      "timestamp": "2026-10-23T23:40:03.081Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "c5ef5cd3-bc3d-413f-b57d-f54a4de8b44f",
+      "timestamp": "2026-10-23T23:40:03.079Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (452975 bytes in 2631ms)",
+      "details": null
+    },
+    {
+      "id": "b391a400-772c-4a9a-a4db-024ef31fa7ad",
+      "timestamp": "2026-10-23T23:40:01.586Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/e71561b7-0745-4352-ab82-dc163267f351?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "05b57b99-c734-400e-bf88-34d00b6f1a04",
+      "timestamp": "2026-10-23T23:40:01.583Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"all 122.pdf\": file_id=e71561b7-0745-4352-ab82-dc163267f351, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "c2d52327-7a86-40c8-9d55-7b6d1086a5b0",
+      "timestamp": "2026-10-23T23:40:01.523Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "🔄 Auto-advanced source template \"all 122.pdf\" -> updated to \"All_25.pdf\" in-place for next cycle.",
+      "details": null
+    },
+    {
+      "id": "92c17eba-efb4-4872-bcec-e6c2468f28cc",
+      "timestamp": "2026-10-23T23:40:01.514Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 8141ms (Attempts: 1)",
+      "details": "{\"transferId\":\"d3ca48c2-74bc-4d05-9b7a-d66794e7142a\",\"websiteBFileId\":\"6adbf04f6923adbccea469a8\",\"replacements\":48}"
+    },
+    {
+      "id": "99a5d74f-c6a6-4a89-8178-8ce2043b561d",
+      "timestamp": "2026-10-23T23:40:01.506Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbf04f6923adbccea469a8, 452971 bytes in 4742ms)",
+      "details": null
+    },
+    {
+      "id": "5eb6718d-a568-468d-bd76-c4c7381e8549",
+      "timestamp": "2026-10-23T23:40:00.448Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"all 122.pdf\" (888775 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "740d5116-c1f1-4f5e-8890-05e0e1519faf",
+      "timestamp": "2026-10-23T23:40:00.443Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "5ca1b514-9449-407f-ad72-650008bae5cb",
+      "timestamp": "2026-10-23T23:40:00.441Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"all 122.pdf\" (888775 bytes, SHA-256: daf321f676dd...)",
+      "details": null
+    },
+    {
+      "id": "42edc062-f4ea-4e38-8976-f1ee66397080",
+      "timestamp": "2026-10-23T23:40:00.437Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "c1a8d5ff-c528-42e3-9177-7fc9cceef974",
+      "timestamp": "2026-10-23T23:40:00.432Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:40:00.432Z",
+      "details": null
+    },
+    {
+      "id": "dca382e6-338a-41fb-ab0c-ce8f39423777",
+      "timestamp": "2026-10-23T23:39:58.070Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (452971 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "a88b2387-f9a3-4200-9461-caa1cbcc7ae1",
+      "timestamp": "2026-10-23T23:39:58.068Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Authenticated successfully as foradvance685@gmail.com (uploader) on Website B in 1303ms",
+      "details": null
+    },
+    {
+      "id": "dffa45b9-17e7-458f-9cc0-caad8d41a5de",
+      "timestamp": "2026-10-23T23:39:56.763Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "5695e51b-5596-43cf-b281-6a1e87372efd",
+      "timestamp": "2026-10-23T23:39:56.760Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (452971 bytes in 3383ms)",
+      "details": null
+    },
+    {
+      "id": "b0ebbefe-eda1-4899-b0b2-7d7db13d64e9",
+      "timestamp": "2026-10-23T23:39:56.231Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/71073022-af3f-4a36-9229-05ad8f36ef2f?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "59ba002d-af9e-4185-8454-283e33bf9513",
+      "timestamp": "2026-10-23T23:39:56.229Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"all 122.pdf\": file_id=71073022-af3f-4a36-9229-05ad8f36ef2f, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "e70f7634-de6b-455f-8e27-dc67c7f6e8c9",
+      "timestamp": "2026-10-23T23:39:53.377Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"all 122.pdf\" (888775 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "b07efc7a-561a-4c17-9fa7-d64c53b47e0e",
+      "timestamp": "2026-10-23T23:39:53.374Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "aaa29752-fa5e-4210-8715-e27ab2709971",
+      "timestamp": "2026-10-23T23:39:53.371Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"all 122.pdf\" (888775 bytes, SHA-256: daf321f676dd...)",
+      "details": null
+    },
+    {
+      "id": "9c5fa7e4-65e8-4bd5-8b9b-f7f58fbb307e",
+      "timestamp": "2026-10-23T23:39:53.344Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "c342ad7b-8054-43bd-9148-efca5ec32436",
+      "timestamp": "2026-10-23T23:39:30.840Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"*/2 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "6d1e8e6f-11a1-4ed2-a1cc-b86e5b921cf6",
+      "timestamp": "2026-10-23T23:39:30.832Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "Initializing background scheduler. Schedule: \"*/2 * * * *\", Enabled: true",
+      "details": null
+    },
+    {
+      "id": "f277924b-2950-46c1-aba1-d2124dad3fbb",
+      "timestamp": "2026-10-23T23:38:08.051Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 7597ms (Attempts: 1)",
+      "details": "{\"transferId\":\"44f47fb0-6078-4379-adf8-8c2b18648fc1\",\"websiteBFileId\":\"6adbefde6923adbccea469a4\",\"replacements\":48}"
+    },
+    {
+      "id": "744cf59a-b343-4756-b7c1-3f64b0d7284a",
+      "timestamp": "2026-10-23T23:38:08.043Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbefde6923adbccea469a4, 452971 bytes in 3516ms)",
+      "details": null
+    },
+    {
+      "id": "6351ce3e-da80-4565-9117-3ca9f0e96839",
+      "timestamp": "2026-10-23T23:38:04.528Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (452971 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "4ceaddcf-7318-409e-ba39-0949c5215fa7",
+      "timestamp": "2026-10-23T23:38:04.526Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "7f1c39a0-f2cb-4fc7-b689-592ec1c10668",
+      "timestamp": "2026-10-23T23:38:04.524Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (452971 bytes in 4066ms)",
+      "details": null
+    },
+    {
+      "id": "8873ca50-8fa0-4d0b-bf54-f9ca4a0bb2d2",
+      "timestamp": "2026-10-23T23:38:02.592Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/dbd02313-624f-4975-b5c2-a96e59bc1967?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "bdb2b46f-a7dc-435c-8e60-964362512e8b",
+      "timestamp": "2026-10-23T23:38:02.590Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"all 122.pdf\": file_id=dbd02313-624f-4975-b5c2-a96e59bc1967, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "6c499192-ac97-49bb-aa0c-3ec5a89cb936",
+      "timestamp": "2026-10-23T23:38:00.458Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"all 122.pdf\" (888775 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "817b64b6-dd40-4acb-87af-311af6cb77e5",
+      "timestamp": "2026-10-23T23:38:00.456Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "b972a26e-de32-403c-bf0b-94ebaf7b4ace",
+      "timestamp": "2026-10-23T23:38:00.452Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"all 122.pdf\" (888775 bytes, SHA-256: daf321f676dd...)",
+      "details": null
+    },
+    {
+      "id": "1a1466f3-f884-40e8-a5bb-eb87f97bc11d",
+      "timestamp": "2026-10-23T23:38:00.283Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "a7bc611d-022e-4a7d-8620-a102f9db3658",
+      "timestamp": "2026-10-23T23:38:00.279Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:38:00.279Z",
+      "details": null
+    },
+    {
+      "id": "0c0466bd-814d-4550-81ad-abcfae701110",
+      "timestamp": "2026-10-23T23:36:05.086Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 5069ms (Attempts: 1)",
+      "details": "{\"transferId\":\"7f4c6899-9e6c-4514-b9a5-45da90cde58c\",\"websiteBFileId\":\"6adbef636923adbccea469a1\",\"replacements\":48}"
+    },
+    {
+      "id": "777c017c-ccba-49f2-a815-b1e13ae5855a",
+      "timestamp": "2026-10-23T23:36:05.082Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbef636923adbccea469a1, 452969 bytes in 2371ms)",
+      "details": null
+    },
+    {
+      "id": "f2184a14-8239-4deb-9373-aac56edc5693",
+      "timestamp": "2026-10-23T23:36:02.711Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (452969 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "e3e69d4c-b066-473d-aee3-b03a937eb8cf",
+      "timestamp": "2026-10-23T23:36:02.710Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "54d06988-ee13-47fd-b78b-26ce26553c49",
+      "timestamp": "2026-10-23T23:36:02.708Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (452969 bytes in 2688ms)",
+      "details": null
+    },
+    {
+      "id": "103ec287-3a1d-4fd5-ad21-bfe9a78ae972",
+      "timestamp": "2026-10-23T23:36:01.983Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/fada69e9-410d-495b-a51a-47f61584041e?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "e10b09a1-8306-478e-91b3-0d1c3235f362",
+      "timestamp": "2026-10-23T23:36:01.981Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"all 122.pdf\": file_id=fada69e9-410d-495b-a51a-47f61584041e, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "f7d60074-51a4-42c3-9e21-07d0cd9b6489",
+      "timestamp": "2026-10-23T23:36:00.020Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"all 122.pdf\" (888775 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "a056121a-6d2c-4290-af1f-3e5e9c8b0c64",
+      "timestamp": "2026-10-23T23:36:00.018Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "4199491e-2cf6-4d96-a9e1-31767ef621aa",
+      "timestamp": "2026-10-23T23:36:00.016Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"all 122.pdf\" (888775 bytes, SHA-256: daf321f676dd...)",
+      "details": null
+    },
+    {
+      "id": "d33751b7-3928-43de-9395-a74cabcc0f12",
+      "timestamp": "2026-10-23T23:36:00.012Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "6ce380b0-0a48-4a22-976e-a39366e9560a",
+      "timestamp": "2026-10-23T23:36:00.010Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:36:00.010Z",
+      "details": null
+    },
+    {
+      "id": "da57a087-479b-4247-bceb-766d0dd93176",
+      "timestamp": "2026-10-23T23:34:07.559Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 6705ms (Attempts: 1)",
+      "details": "{\"transferId\":\"3121d7ae-5366-4759-9909-db1acb172db4\",\"websiteBFileId\":\"6adbeeed6923adbccea46997\",\"replacements\":48}"
+    },
+    {
+      "id": "18ada985-d2c4-43ef-ae13-5da595030aad",
+      "timestamp": "2026-10-23T23:34:07.554Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbeeed6923adbccea46997, 452975 bytes in 3445ms)",
+      "details": null
+    },
+    {
+      "id": "1347ece5-2066-4166-bb1e-ef3c0413cf0b",
+      "timestamp": "2026-10-23T23:34:04.109Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (452975 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "48b9d3b8-1354-447f-9c80-503295103c98",
+      "timestamp": "2026-10-23T23:34:04.108Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "f32783ae-504f-48dc-bf46-9787b7915f0c",
+      "timestamp": "2026-10-23T23:34:04.106Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (452975 bytes in 3248ms)",
+      "details": null
+    },
+    {
+      "id": "26cec09a-bcda-496d-b248-36c4d38e8688",
+      "timestamp": "2026-10-23T23:34:03.606Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/7884cfe1-f61c-46c8-b9a7-0e46f6bd0819?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "ddb7b24d-e345-4ef2-a991-c45e814a3e23",
+      "timestamp": "2026-10-23T23:34:03.604Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"all 122.pdf\": file_id=7884cfe1-f61c-46c8-b9a7-0e46f6bd0819, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "9a4e585a-6c89-4a1c-8f16-13dbe7f80d4a",
+      "timestamp": "2026-10-23T23:34:00.858Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"all 122.pdf\" (888775 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "a008d537-71ad-4966-859b-5cdb425e8ca0",
+      "timestamp": "2026-10-23T23:34:00.855Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "cc04c742-dc04-4bbf-bf13-747af454306a",
+      "timestamp": "2026-10-23T23:34:00.853Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"all 122.pdf\" (888775 bytes, SHA-256: daf321f676dd...)",
+      "details": null
+    },
+    {
+      "id": "f489a8cc-6877-43aa-ad70-68c9055a7f61",
+      "timestamp": "2026-10-23T23:34:00.845Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "4b53962d-8909-46ef-abfb-65cdd2f9f782",
+      "timestamp": "2026-10-23T23:34:00.842Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:34:00.842Z",
+      "details": null
+    },
+    {
+      "id": "cee8f355-7c75-4d35-a377-519552010c4d",
+      "timestamp": "2026-10-23T23:32:14.369Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 5963ms (Attempts: 1)",
+      "details": "{\"transferId\":\"4d92c05c-4e12-42e9-89d6-ed545b198f0d\",\"websiteBFileId\":\"6adbee7c6923adbccea46984\",\"replacements\":48}"
+    },
+    {
+      "id": "ab76c90b-7f07-4475-87bf-a21922da352c",
+      "timestamp": "2026-10-23T23:32:14.364Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbee7c6923adbccea46984, 452977 bytes in 3543ms)",
+      "details": null
+    },
+    {
+      "id": "53ca3cc0-5693-48e7-8727-2947134df371",
+      "timestamp": "2026-10-23T23:32:10.821Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (452977 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "40daf328-4047-42d2-a47d-38a231d13300",
+      "timestamp": "2026-10-23T23:32:10.818Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "a2c67005-aa62-4396-ab43-e7a88ef253b5",
+      "timestamp": "2026-10-23T23:32:10.814Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (452977 bytes in 2405ms)",
+      "details": null
+    },
+    {
+      "id": "7fe07968-e560-41f3-ad71-39f9994b0351",
+      "timestamp": "2026-10-23T23:32:10.303Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/7d938849-fdc7-4ecc-b2df-eb753acbff05?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "3c79d42c-399a-4119-8d70-501c3ff414d7",
+      "timestamp": "2026-10-23T23:32:10.300Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"all 122.pdf\": file_id=7d938849-fdc7-4ecc-b2df-eb753acbff05, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "4e7d6a6d-d360-4543-b52d-5c0bb91496b4",
+      "timestamp": "2026-10-23T23:32:08.409Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"all 122.pdf\" (888775 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "20e39873-a1e3-4a1f-b575-5aec112c72a4",
+      "timestamp": "2026-10-23T23:32:08.407Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "304a0189-4206-4622-a527-b20e10517dc3",
+      "timestamp": "2026-10-23T23:32:08.405Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"all 122.pdf\" (888775 bytes, SHA-256: daf321f676dd...)",
+      "details": null
+    },
+    {
+      "id": "b2712f17-82f4-4bb0-b47f-9bd1773e06cf",
+      "timestamp": "2026-10-23T23:32:08.400Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "76343f1a-0c4d-442c-af72-bcf5f52831d1",
+      "timestamp": "2026-10-23T23:32:08.397Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⚡ Manual \"Run Now\" triggered by administrator at 2026-10-23T23:32:08.397Z",
+      "details": null
+    },
+    {
+      "id": "09dfc51b-8116-4eb9-9472-1eb1a5b24138",
+      "timestamp": "2026-10-23T23:32:05.634Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 4907ms (Attempts: 1)",
+      "details": "{\"transferId\":\"2d2377f4-a1eb-4b16-a556-35e727a69747\",\"websiteBFileId\":\"6adbee736923adbccea46981\",\"replacements\":48}"
+    },
+    {
+      "id": "a7c19dc7-d677-4a25-9d5a-be07cd1dff60",
+      "timestamp": "2026-10-23T23:32:05.624Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbee736923adbccea46981, 452972 bytes in 2426ms)",
+      "details": null
+    },
+    {
+      "id": "1da7ca46-ee42-4392-b4b4-ff93aa7ce920",
+      "timestamp": "2026-10-23T23:32:03.198Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (452972 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "0398a600-2902-4466-8d94-e60fa58cfc3e",
+      "timestamp": "2026-10-23T23:32:03.194Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "d2052697-f3ef-4160-85f3-2fe571174389",
+      "timestamp": "2026-10-23T23:32:03.189Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (452972 bytes in 2461ms)",
+      "details": null
+    },
+    {
+      "id": "0895c776-8103-491a-8a4e-d472fd61b77d",
+      "timestamp": "2026-10-23T23:32:02.596Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/10d403d9-9428-4205-8857-ba91ebfb1210?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "59fdceef-9e18-4cf1-8d28-3ddb42b187ca",
+      "timestamp": "2026-10-23T23:32:02.593Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"all 122.pdf\": file_id=10d403d9-9428-4205-8857-ba91ebfb1210, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "9c653582-4b15-4c8c-855c-8d37dd5feeb9",
+      "timestamp": "2026-10-23T23:32:00.728Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"all 122.pdf\" (888775 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "e0f289db-26ff-4c4d-a20b-a700e4af9e15",
+      "timestamp": "2026-10-23T23:32:00.726Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "d8138ce8-bc2e-41c8-bff9-46c3c3ed5444",
+      "timestamp": "2026-10-23T23:32:00.723Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"all 122.pdf\" (888775 bytes, SHA-256: daf321f676dd...)",
+      "details": null
+    },
+    {
+      "id": "21146b44-4396-43c7-814b-2fbf9e879038",
+      "timestamp": "2026-10-23T23:32:00.711Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "a34a3217-b566-4051-a20c-9e13b100eeaa",
+      "timestamp": "2026-10-23T23:32:00.708Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:32:00.708Z",
+      "details": null
+    },
+    {
+      "id": "bd254a1a-97b6-4f9b-b9b0-5be24515402e",
+      "timestamp": "2026-10-23T23:30:42.289Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 9 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":449,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "593d022a-71df-46d1-96fa-b2c77088cf89",
+      "timestamp": "2026-10-23T23:30:42.129Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1469}"
+    },
+    {
+      "id": "eb3ce69e-e380-4cc1-93b3-fae5adedb02f",
+      "timestamp": "2026-10-23T23:30:18.662Z",
+      "level": "info",
+      "category": "SYSTEM",
+      "message": "Automation settings updated by administrator.",
+      "details": null
+    },
+    {
+      "id": "4c062e1f-fa2d-4021-82a6-33f3f311e129",
+      "timestamp": "2026-10-23T23:30:18.660Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"*/2 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "7071f99e-d0ad-4447-a6c5-ce6a466ce90d",
+      "timestamp": "2026-10-23T23:30:18.642Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"*/2 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "05948b1c-86c9-49cf-88cf-76f2bd3bb7fc",
+      "timestamp": "2026-10-23T23:30:18.601Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "b5ada8ca-a100-4ee2-8dc3-3507128ba0f0",
+      "timestamp": "2026-10-23T23:30:07.992Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 7587ms (Attempts: 1)",
+      "details": "{\"transferId\":\"44f87e82-ee05-4705-bb08-22682aad145d\",\"websiteBFileId\":\"6adbedfe6923adbccea4697b\",\"replacements\":48}"
+    },
+    {
+      "id": "2faebe86-3c5a-41e4-804e-3cc72658696b",
+      "timestamp": "2026-10-23T23:30:07.987Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbedfe6923adbccea4697b, 452974 bytes in 3500ms)",
+      "details": null
+    },
+    {
+      "id": "80b1acb6-d713-4d1d-972d-ba23eea37114",
+      "timestamp": "2026-10-23T23:30:04.487Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (452974 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "a7a37050-30ed-42bc-b928-9cd5a3f95cb9",
+      "timestamp": "2026-10-23T23:30:04.483Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "bc242270-3045-4b10-af58-484bb58b1492",
+      "timestamp": "2026-10-23T23:30:04.481Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (452974 bytes in 4070ms)",
+      "details": null
+    },
+    {
+      "id": "982bab6f-cb6c-4466-9fde-cb0ce51ddad6",
+      "timestamp": "2026-10-23T23:30:03.533Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/0c419da6-035d-4cf6-9964-c14b7cb4b78f?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "55f62512-8ee6-4db3-a44a-7167d0dbc0c0",
+      "timestamp": "2026-10-23T23:30:03.527Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"all 122.pdf\": file_id=0c419da6-035d-4cf6-9964-c14b7cb4b78f, replacements=48, pages=12",
+      "details": null
+    },
+    {
+      "id": "74dfdd90-adf1-45da-9b67-93dd615a4130",
+      "timestamp": "2026-10-23T23:30:00.410Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"all 122.pdf\" (888775 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "acdd83c2-9bd3-47ef-91d9-bc52cfba6042",
+      "timestamp": "2026-10-23T23:30:00.409Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "ac7fc6c6-d383-4e7d-9af8-b043d5c277a6",
+      "timestamp": "2026-10-23T23:30:00.405Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"all 122.pdf\" (888775 bytes, SHA-256: daf321f676dd...)",
+      "details": null
+    },
+    {
+      "id": "94492702-47e6-4f00-b01c-9cc485f5c755",
+      "timestamp": "2026-10-23T23:30:00.400Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 1 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "bababec2-331a-4c0e-936f-aede36c6cae6",
+      "timestamp": "2026-10-23T23:30:00.397Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⏰ Scheduled automation cycle triggered at 2026-10-23T23:30:00.397Z",
+      "details": null
+    },
+    {
+      "id": "2a8516f7-e279-4413-83ea-6ad0bdeb4d14",
+      "timestamp": "2026-10-23T23:27:39.947Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":312,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "bb277647-f7ae-4aad-9816-ba8d613a50b1",
+      "timestamp": "2026-10-23T23:27:39.225Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":608}"
+    },
+    {
+      "id": "76c62372-7a85-4f08-9311-bd1c005dde21",
+      "timestamp": "2026-10-23T23:27:38.603Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":938,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "0d0916f3-4c10-41bf-8ca2-c55e19e87d3b",
+      "timestamp": "2026-10-23T23:27:37.345Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":847}"
+    },
+    {
+      "id": "e09901ed-513d-4de9-8519-d4409a1fd901",
+      "timestamp": "2026-10-23T23:26:45.331Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":316,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "fc4098a3-591a-4603-a9ae-50f3b00f2622",
+      "timestamp": "2026-10-23T23:26:44.699Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1231}"
+    },
+    {
+      "id": "3c2ae89e-75f3-4fc9-8c54-827d106f21cd",
+      "timestamp": "2026-10-23T23:26:40.584Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":964,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "848bb141-174c-4207-b14a-b7e28534e4ec",
+      "timestamp": "2026-10-23T23:26:39.984Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1499}"
+    },
+    {
+      "id": "0de77841-a52f-4df3-9657-dcc693f56c24",
+      "timestamp": "2026-10-23T23:26:38.450Z",
+      "level": "info",
+      "category": "SYSTEM",
+      "message": "Automation settings updated by administrator.",
+      "details": null
+    },
+    {
+      "id": "4ea9b19c-9b44-474d-99d9-d54349e33b7e",
+      "timestamp": "2026-10-23T23:26:38.447Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"*/15 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "aac0c760-ba62-4752-a7db-4f4d88489417",
+      "timestamp": "2026-10-23T23:26:07.589Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"*/15 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "5ab615d4-c29f-4470-8896-2bde2ee7341e",
+      "timestamp": "2026-10-23T23:25:27.109Z",
+      "level": "info",
+      "category": "SYSTEM",
+      "message": "Added source template: \"all 122.pdf\" (888775 bytes)",
+      "details": null
+    },
+    {
+      "id": "8ba40a01-c1e2-4691-b3bb-fd87e9a5e36f",
+      "timestamp": "2026-10-23T23:19:58.552Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":796,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "f79da698-5f81-4d5a-8eae-000e932141d5",
+      "timestamp": "2026-10-23T23:19:57.357Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":619}"
+    },
+    {
+      "id": "7a97006b-a57f-4021-b0c2-fe1c35353199",
+      "timestamp": "2026-10-23T23:19:56.732Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":485,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "408709e4-0463-4f85-a80f-62efe7d1bc2d",
+      "timestamp": "2026-10-23T23:19:56.341Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1796}"
+    },
+    {
+      "id": "6027c5a7-360e-4e3f-9e58-a1b53833e465",
+      "timestamp": "2026-10-23T23:19:29.979Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "No active source templates found in Website C. Upload or enable templates in the dashboard to automate.",
+      "details": null
+    },
+    {
+      "id": "d32a1361-ef0c-4275-838e-2e22a9137afb",
+      "timestamp": "2026-10-23T23:19:29.968Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Starting automated transfer cycle for 0 active template(s)...",
+      "details": null
+    },
+    {
+      "id": "917a12b0-dcea-4f43-b73c-e8ef5b17c19c",
+      "timestamp": "2026-10-23T23:19:29.966Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "⚡ Manual \"Run Now\" triggered by administrator at 2026-10-23T23:19:29.966Z",
+      "details": null
+    },
+    {
+      "id": "1429b1dd-1b5c-4297-b92c-3ec112d1f7c3",
+      "timestamp": "2026-10-23T23:19:14.238Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "16549ca9-944c-4c1e-b52b-061a3ea6482c",
+      "timestamp": "2026-10-23T23:19:13.437Z",
+      "level": "warn",
+      "category": "SCHEDULER",
+      "message": "Scheduler paused by administrator.",
+      "details": null
+    },
+    {
+      "id": "6ea6ebfc-8b83-42ef-913e-f0ee7faa6e8f",
+      "timestamp": "2026-10-23T23:19:12.468Z",
+      "level": "warn",
+      "category": "SCHEDULER",
+      "message": "Scheduler paused by administrator.",
+      "details": null
+    },
+    {
+      "id": "82d72e0a-cf10-46b4-b0b8-de8a874f8051",
+      "timestamp": "2026-10-23T23:19:08.280Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "ab020d91-58f4-4f07-82e1-54c112b31a9c",
+      "timestamp": "2026-10-23T23:19:06.689Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "0f5b8bac-4e05-48fb-b257-adc654e25ca1",
+      "timestamp": "2026-10-23T23:18:27.742Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":313,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "379be1ba-cd77-4407-bec1-4a3ee52a44f8",
+      "timestamp": "2026-10-23T23:18:27.043Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":628}"
+    },
+    {
+      "id": "2887da26-b6ac-4ca4-b846-4f4c7b9bbb72",
+      "timestamp": "2026-10-23T23:18:26.406Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":948,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "5a9c4934-5688-45eb-923b-b11e65359fd1",
+      "timestamp": "2026-10-23T23:18:25.793Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1956}"
+    },
+    {
+      "id": "bfde3953-3121-4266-b6de-750600ac7fdd",
+      "timestamp": "2026-10-23T23:14:09.623Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 8 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":471,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "6634ba8b-2cb5-4bf7-80de-507f9f419f4b",
+      "timestamp": "2026-10-23T23:14:08.904Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":888}"
+    },
+    {
+      "id": "db72482a-5008-4f4d-ba33-b02b1edba414",
+      "timestamp": "2026-10-23T23:11:11.856Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 6581ms (Attempts: 1)",
+      "details": "{\"transferId\":\"60aa57d0-186e-46fd-9cd2-2f4e564217fd\",\"websiteBFileId\":\"6adbe98e6923adbccea46952\",\"replacements\":24}"
+    },
+    {
+      "id": "95050447-fbc6-4f3f-b0ee-fce107fafc87",
+      "timestamp": "2026-10-23T23:11:11.847Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbe98e6923adbccea46952, 444526 bytes in 3395ms)",
+      "details": null
+    },
+    {
+      "id": "1e5b085a-5407-47b5-872b-b45e0bfc5c31",
+      "timestamp": "2026-10-23T23:11:08.452Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (444526 bytes) to Website B: https://pdf-sender-iaa4.onrender.com/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "6ca1eb01-a986-401e-ae88-fc4cdea83b51",
+      "timestamp": "2026-10-23T23:11:08.450Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "c1df008b-452c-4caf-8696-7dd64ec7eb20",
+      "timestamp": "2026-10-23T23:11:08.448Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (444526 bytes in 3172ms)",
+      "details": null
+    },
+    {
+      "id": "3b47d250-33dc-4e95-8051-33d6084a7550",
+      "timestamp": "2026-10-23T23:11:07.603Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/88bd77d4-c9fa-4765-bd4b-0bb1e55fde2f?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "b7b6ae84-c159-4569-8eaf-dba59110f109",
+      "timestamp": "2026-10-23T23:11:07.601Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"Daily_Automated_Chalan.pdf\": file_id=88bd77d4-c9fa-4765-bd4b-0bb1e55fde2f, replacements=24, pages=6",
+      "details": null
+    },
+    {
+      "id": "303ca631-34f1-45d0-998b-a9e2820f2d94",
+      "timestamp": "2026-10-23T23:11:05.277Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"Daily_Automated_Chalan.pdf\" (444524 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "5af5d23e-7679-42e7-98da-6a4ed02493ce",
+      "timestamp": "2026-10-23T23:11:05.275Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "c73dca4e-cc5c-4783-b461-86e78285abd9",
+      "timestamp": "2026-10-23T23:11:05.272Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"Daily_Automated_Chalan.pdf\" (444524 bytes, SHA-256: 6a2af51ed120...)",
+      "details": null
+    },
+    {
+      "id": "85fd2bb1-332a-4a29-837c-087ee82eba5b",
+      "timestamp": "2026-10-23T23:11:05.237Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "cbb7a0cf-c556-48c5-9382-74bc260d3cb2",
+      "timestamp": "2026-10-23T23:10:54.199Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 7 existing files verified",
+      "details": "{\"baseUrl\":\"https://pdf-sender-iaa4.onrender.com\",\"latencyMs\":2557,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "50436fd8-c469-405c-a4f4-1bfe0886fb59",
+      "timestamp": "2026-10-23T23:10:53.102Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Authenticated successfully as foradvance685@gmail.com (uploader) on Website B in 1804ms",
+      "details": null
+    },
+    {
+      "id": "3cbda3ac-ccfc-49a4-ae29-016a2977b7fc",
+      "timestamp": "2026-10-23T23:10:51.992Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1513}"
+    },
+    {
+      "id": "e73cbfb1-782b-45ad-8b68-2962a46377ec",
+      "timestamp": "2026-10-23T23:10:50.463Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "0db19d24-c663-4fe4-8aa5-16e43f38c04d",
+      "timestamp": "2026-10-23T23:10:35.000Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "5f15fb13-beab-4f63-a204-acaf62742a9d",
+      "timestamp": "2026-10-23T23:10:34.989Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "Initializing background scheduler. Schedule: \"0 * * * *\", Enabled: true",
+      "details": null
+    },
+    {
+      "id": "24741c30-cad6-4883-b7ff-a2b4f6f14e48",
+      "timestamp": "2026-10-23T23:09:40.050Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "43626b06-14b6-4cfe-9b8e-7e57de7fef63",
+      "timestamp": "2026-10-23T23:09:40.043Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "Initializing background scheduler. Schedule: \"0 * * * *\", Enabled: true",
+      "details": null
+    },
+    {
+      "id": "92d32069-27fa-4256-b2ad-d01ec0e73e5b",
+      "timestamp": "2026-10-23T23:09:26.381Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_25.pdf\" in 2476ms (Attempts: 1)",
+      "details": "{\"transferId\":\"22d5565a-0f78-419c-bf42-de105e5c2d92\",\"websiteBFileId\":\"6adbe9261747dd3473709999\",\"replacements\":24}"
+    },
+    {
+      "id": "84f9e795-e5a5-4755-9eda-231c8754e52a",
+      "timestamp": "2026-10-23T23:09:26.379Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_25.pdf\" to Website B (ID: 6adbe9261747dd3473709999, 444527 bytes in 207ms)",
+      "details": null
+    },
+    {
+      "id": "dafc888b-ac79-4492-8f76-ad1476b115aa",
+      "timestamp": "2026-10-23T23:09:26.172Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_25.pdf\" (444527 bytes) to Website B: http://localhost:5000/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "32c15091-c8ae-4df7-afdb-6585f9e16baa",
+      "timestamp": "2026-10-23T23:09:26.172Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "f52397fb-5d0e-444c-a1d5-a31f5f06b5d1",
+      "timestamp": "2026-10-23T23:09:26.170Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_25.pdf\" (444527 bytes in 2262ms)",
+      "details": null
+    },
+    {
+      "id": "1c5f5622-b7f4-46e5-8305-46925111e2b1",
+      "timestamp": "2026-10-23T23:09:25.488Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/ce3c71bb-1a7f-4006-a073-a0041af5820d?fname=All_25.pdf",
+      "details": null
+    },
+    {
+      "id": "b43db330-e470-4cfc-97c5-4ce2c1d7e30a",
+      "timestamp": "2026-10-23T23:09:25.486Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"Live_Cloud_Transfer.pdf\": file_id=ce3c71bb-1a7f-4006-a073-a0041af5820d, replacements=24, pages=6",
+      "details": null
+    },
+    {
+      "id": "19ea456f-5cc3-48e8-9b16-4d888961ca4e",
+      "timestamp": "2026-10-23T23:09:23.908Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"Live_Cloud_Transfer.pdf\" (444524 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "e09b4a6d-4420-4a4e-a930-ea57fcfc5b3d",
+      "timestamp": "2026-10-23T23:09:23.907Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "e1847b55-5093-47e5-8e65-2cc8acc29213",
+      "timestamp": "2026-10-23T23:09:23.906Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"Live_Cloud_Transfer.pdf\" (444524 bytes, SHA-256: 6a2af51ed120...)",
+      "details": null
+    },
+    {
+      "id": "b3704d44-1708-407c-8364-a79e4fb09ac7",
+      "timestamp": "2026-10-23T23:09:23.854Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 6 existing files verified",
+      "details": "{\"baseUrl\":\"http://localhost:5000\",\"latencyMs\":17,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "41a47385-bfe0-4a62-bc22-391f430c11fd",
+      "timestamp": "2026-10-23T23:09:23.618Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "af8c1bcc-6307-49c6-a904-fe2b40e294ea",
+      "timestamp": "2026-10-23T22:56:24.042Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1878}"
+    },
+    {
+      "id": "4bc773b1-e283-4525-a42c-af46cd227e63",
+      "timestamp": "2026-10-23T22:56:22.417Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 6 existing files verified",
+      "details": "{\"baseUrl\":\"http://localhost:5000\",\"latencyMs\":43,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "61b30485-27aa-4d67-b89c-8730a102ded8",
+      "timestamp": "2026-10-23T22:55:00.517Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "cf672516-930c-41d0-91d4-8b3c5f1d3e45",
+      "timestamp": "2026-10-23T22:54:06.426Z",
+      "level": "warn",
+      "category": "AUTH",
+      "message": "Failed login attempt for username: \"admin\"",
+      "details": null
+    },
+    {
+      "id": "adb0d67f-c824-43ea-bfc9-3c94396aced5",
+      "timestamp": "2026-10-23T22:53:05.910Z",
+      "level": "warn",
+      "category": "TRANSFER",
+      "message": "Duplicate detected: identical file \"Duplicate_Check.pdf\" already transferred on 2026-10-23T22:52:09.911Z. Skipping upload.",
+      "details": null
+    },
+    {
+      "id": "759eaf9d-b13a-43db-a28c-2ea34ac3edfa",
+      "timestamp": "2026-10-23T22:53:05.896Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"Duplicate_Check.pdf\" (444524 bytes, SHA-256: 6a2af51ed120...)",
+      "details": null
+    },
+    {
+      "id": "21b90b51-9956-4b26-9ac4-1115a76b8b97",
+      "timestamp": "2026-10-23T22:53:05.875Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "7254d0a2-ee0d-4e0e-b0b7-2228995594b3",
+      "timestamp": "2026-10-23T22:52:13.158Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_24.pdf\" in 2067ms (Attempts: 1)",
+      "details": "{\"transferId\":\"8d1451ce-0bb2-4006-85af-fded12e8ed57\",\"websiteBFileId\":\"6adbe51d1747dd3473709990\",\"replacements\":24}"
+    },
+    {
+      "id": "6158b851-1376-4015-81e3-4ae439bd875b",
+      "timestamp": "2026-10-23T22:52:13.155Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_24.pdf\" to Website B (ID: 6adbe51d1747dd3473709990, 444522 bytes in 161ms)",
+      "details": null
+    },
+    {
+      "id": "1b31c6ec-3e3b-4496-bec1-be2c8fc22f64",
+      "timestamp": "2026-10-23T22:52:12.994Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_24.pdf\" (444522 bytes) to Website B: http://localhost:5000/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "89210e71-e8f0-4a10-82d8-df16d8ff0730",
+      "timestamp": "2026-10-23T22:52:12.993Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "e46f63d0-4e69-4a97-8545-fc59eed87f5e",
+      "timestamp": "2026-10-23T22:52:12.992Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_24.pdf\" (444522 bytes in 1899ms)",
+      "details": null
+    },
+    {
+      "id": "88b7d1bb-7438-45b4-84e5-986f191de63d",
+      "timestamp": "2026-10-23T22:52:12.010Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/33ef4e26-1dd4-4abd-9378-e11b740894ba?fname=All_24.pdf",
+      "details": null
+    },
+    {
+      "id": "284476f1-1b81-4d2f-a577-98e5ee5bb374",
+      "timestamp": "2026-10-23T22:52:12.009Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"Schedule_Batch_Input.pdf\": file_id=33ef4e26-1dd4-4abd-9378-e11b740894ba, replacements=24, pages=6",
+      "details": null
+    },
+    {
+      "id": "aec8974c-a46e-4d0a-9643-e1740ee02a04",
+      "timestamp": "2026-10-23T22:52:11.093Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"Schedule_Batch_Input.pdf\" (444519 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "de82b47f-34ec-4806-a654-f32d9fddfe75",
+      "timestamp": "2026-10-23T22:52:11.092Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "4c2709b3-f87c-4d85-83c2-c3b0eb120389",
+      "timestamp": "2026-10-23T22:52:11.091Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"Schedule_Batch_Input.pdf\" (444519 bytes, SHA-256: 4373ef92489f...)",
+      "details": null
+    },
+    {
+      "id": "64f725c9-7bd1-4aac-8951-5dd1d96bac94",
+      "timestamp": "2026-10-23T22:52:09.912Z",
+      "level": "success",
+      "category": "TRANSFER",
+      "message": "Transfer completed successfully for \"All_24.pdf\" in 2346ms (Attempts: 1)",
+      "details": "{\"transferId\":\"1a1522e1-d289-42cc-b5ee-98aa7a5b2d6d\",\"websiteBFileId\":\"6adbe5191747dd347370998d\",\"replacements\":24}"
+    },
+    {
+      "id": "271f5b86-7e40-48b1-93aa-bc4624500a68",
+      "timestamp": "2026-10-23T22:52:09.909Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Successfully uploaded \"All_24.pdf\" to Website B (ID: 6adbe5191747dd347370998d, 444524 bytes in 401ms)",
+      "details": null
+    },
+    {
+      "id": "936bcf49-78e0-418a-86c5-6559ebd7e658",
+      "timestamp": "2026-10-23T22:52:09.509Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Uploading \"All_24.pdf\" (444524 bytes) to Website B: http://localhost:5000/api/files/upload",
+      "details": null
+    },
+    {
+      "id": "df21a64f-755a-4ae1-b4c8-4f5a3564ab72",
+      "timestamp": "2026-10-23T22:52:09.507Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 2: Uploading to Website B...",
+      "details": null
+    },
+    {
+      "id": "26f96acc-f7f0-4412-b21f-64518581b05e",
+      "timestamp": "2026-10-23T22:52:09.506Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Successfully retrieved generated PDF \"All_24.pdf\" (444524 bytes in 1938ms)",
+      "details": null
+    },
+    {
+      "id": "d1f6f4ab-1ea8-43bf-99d5-c7b002048daa",
+      "timestamp": "2026-10-23T22:52:08.899Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Downloading generated PDF from: https://pdf-editorx.onrender.com/download/fb4a06af-a0b7-4f33-9ace-1b0c19608840?fname=All_24.pdf",
+      "details": null
+    },
+    {
+      "id": "acddc846-bb94-4ed9-8c0d-5a1a14a00fd7",
+      "timestamp": "2026-10-23T22:52:08.897Z",
+      "level": "success",
+      "category": "WEBSITE_A",
+      "message": "Website A processed \"Schedule_Batch_Input.pdf\": file_id=fb4a06af-a0b7-4f33-9ace-1b0c19608840, replacements=24, pages=6",
+      "details": null
+    },
+    {
+      "id": "8ac41fbd-1285-4792-a539-fe04ccf70272",
+      "timestamp": "2026-10-23T22:52:07.568Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Submitting \"Schedule_Batch_Input.pdf\" (444519 bytes) to Website A: https://pdf-editorx.onrender.com/process",
+      "details": null
+    },
+    {
+      "id": "3b09d635-f323-4e1f-8722-47c3195ff6ed",
+      "timestamp": "2026-10-23T22:52:07.567Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "[Attempt 1/3] Step 1: Processing on Website A...",
+      "details": null
+    },
+    {
+      "id": "7f4b6560-3517-4c1f-b6c7-b19fe7072c88",
+      "timestamp": "2026-10-23T22:52:07.565Z",
+      "level": "info",
+      "category": "TRANSFER",
+      "message": "Initiating transfer pipeline for \"Schedule_Batch_Input.pdf\" (444519 bytes, SHA-256: 4373ef92489f...)",
+      "details": null
+    },
+    {
+      "id": "8beeecfd-2cab-486f-906b-e168970c8d76",
+      "timestamp": "2026-10-23T22:52:05.635Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "3aea2d5a-3e76-49c1-8a93-61d3de280317",
+      "timestamp": "2026-10-23T22:51:46.150Z",
+      "level": "info",
+      "category": "WEBSITE_A",
+      "message": "Connection test to Website A (https://pdf-editorx.onrender.com) result: HTTP 200",
+      "details": "{\"homeStatus\":200,\"processStatus\":405,\"latencyMs\":1553}"
+    },
+    {
+      "id": "3720859b-0724-4f34-a6e0-441b4e629adf",
+      "timestamp": "2026-10-23T22:51:45.446Z",
+      "level": "success",
+      "category": "WEBSITE_B",
+      "message": "Connection test to Website B passed: 4 existing files verified",
+      "details": "{\"baseUrl\":\"http://localhost:5000\",\"latencyMs\":564,\"user\":\"foradvance685@gmail.com\"}"
+    },
+    {
+      "id": "58c3a542-011c-4aca-b3f9-56d732941662",
+      "timestamp": "2026-10-23T22:51:45.227Z",
+      "level": "info",
+      "category": "WEBSITE_B",
+      "message": "Authenticated successfully as foradvance685@gmail.com (uploader) on Website B in 489ms",
+      "details": null
+    },
+    {
+      "id": "4d99ff38-7abb-4ba6-a51f-840635aac361",
+      "timestamp": "2026-10-23T22:51:44.585Z",
+      "level": "info",
+      "category": "AUTH",
+      "message": "Admin logged in successfully: admin",
+      "details": null
+    },
+    {
+      "id": "9051f5ec-43e4-4151-b1fb-e1feaba4d32d",
+      "timestamp": "2026-10-23T22:51:14.202Z",
+      "level": "success",
+      "category": "SCHEDULER",
+      "message": "Scheduler is running with pattern \"0 * * * *\"",
+      "details": null
+    },
+    {
+      "id": "e4f553cd-e252-484b-97e6-799205515882",
+      "timestamp": "2026-10-23T22:51:14.193Z",
+      "level": "info",
+      "category": "SCHEDULER",
+      "message": "Initializing background scheduler. Schedule: \"0 * * * *\", Enabled: true",
+      "details": null
+    }
+  ],
+  "stats": {
+    "totalTransferred": 21,
+    "totalFailed": 0,
+    "totalDuplicatesBlocked": 6,
+    "lastTransferAt": "2026-10-24T00:04:08.146Z",
+    "lastSuccessfulTransfer": {
+      "id": "45db5a01-e69d-4c15-a5f7-8c72008aaff4",
+      "timestamp": "2026-10-24T00:04:08.146Z",
+      "originalFileName": "All_1.pdf",
+      "generatedFileName": "All_2.pdf",
+      "fileSize": 453325,
+      "sha256Hash": "bdf3ca09d5ffb642e48ad17d0578dfcb9b2bcd347a24071b5d1c9146187cd4a7",
+      "status": "success",
+      "attempts": 1,
+      "latencyMs": 7329,
+      "websiteAFileId": "7810dabf-b199-47c6-925c-45b93fbea5f7",
+      "websiteBFileId": "6adbf5f66923adbccea46a22",
+      "notes": "Updated 48 fields across 12 pages. Uploaded to Website B.",
+      "errorMessage": null,
+      "cachedFilePath": "1792800248146_All_2.pdf"
+    }
+  },
+  "settings": {
+    "websiteAUrl": "https://pdf-editorx.onrender.com",
+    "websiteAProcessEndpoint": "/process",
+    "websiteBUrl": "https://pdf-sender-iaa4.onrender.com",
+    "websiteBLoginEndpoint": "/api/auth/login",
+    "websiteBUploadEndpoint": "/api/files/upload",
+    "websiteBEmail": "foradvance685@gmail.com",
+    "scheduleInterval": "0 0 * * *",
+    "scheduleEnabled": true,
+    "maxRetries": 3,
+    "timeoutMs": 90000,
+    "retryDelayMs": 3000
+  }
+}

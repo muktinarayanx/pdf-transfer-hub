@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website C - Enterprise automated PDF transfer bridge connecting Website A (Generator) to Website B (Distribution) with real-time scheduling, duplicate prevention, and diagnostics.">
+  <title>PDF Transfer Hub — Automated Bridge (Website C)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+  <!-- ================= Header ================= -->
+  <header class="app-header" id="appHeader">
+    <div class="brand">
+      <div class="brand-icon" id="brandLogo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" width="22" height="22">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+          <polyline points="13 2 13 9 20 9"></polyline>
+          <path d="M9 15h6"></path>
+          <path d="M12 12v6"></path>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <h1>PDF Transfer Hub</h1>
+        <div class="brand-badge">Website C • Automation Engine</div>
+      </div>
+    </div>
+
+    <!-- Live Status Indicators -->
+    <div class="live-pills" id="statusPills">
+      <div class="pill" id="pillWebsiteA" title="Website A: Generator Connection">
+        <span class="pulse-dot" id="dotWebsiteA"></span>
+        <span>Web A: <strong id="statusWebsiteAText">Checking...</strong></span>
+      </div>
+      <div class="pill" id="pillWebsiteB" title="Website B: Receiver & Distribution Connection">
+        <span class="pulse-dot" id="dotWebsiteB"></span>
+        <span>Web B: <strong id="statusWebsiteBText">Checking...</strong></span>
+      </div>
+      <div class="pill" id="pillScheduler" title="Background Cron Scheduler">
+        <span class="pulse-dot" id="dotScheduler"></span>
+        <span>Scheduler: <strong id="statusSchedulerText">Hourly</strong></span>
+      </div>
+    </div>
+
+    <!-- Quick Action Controls -->
+    <div class="header-actions">
+      <button class="btn btn-primary btn-sm" id="btnQuickRunNow" title="Trigger immediate transfer cycle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+        </svg>
+        <span>Run Now</span>
+      </button>
+      <button class="btn btn-secondary btn-sm" id="btnTestConnections" title="Run diagnostic test on both websites">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <span>Diagnostics</span>
+      </button>
+      <button class="btn btn-ghost btn-sm" id="btnLogout" title="Logout from admin session">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+          <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+          <polyline points="16 17 21 12 16 7"></polyline>
+          <line x1="21" y1="12" x2="9" y2="12"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= Main Container ================= -->
+  <main class="main-wrapper">
+
+    <!-- Top Metrics Overview -->
+    <section class="metrics-grid" id="metricsOverview">
+      <div class="metric-card" id="metricCardTransferred">
+        <div class="metric-header">
+          <span class="metric-title">Total PDFs Transferred</span>
+          <div class="metric-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="metric-value" id="valTotalTransferred">0</div>
+        <div class="metric-sub">
+          <span id="valSuccessRateText">100% success rate</span>
+        </div>
+      </div>
+
+      <div class="metric-card" id="metricCardDuplicates">
+        <div class="metric-header">
+          <span class="metric-title">Duplicates Blocked</span>
+          <div class="metric-icon-wrap warning">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="metric-value" id="valDuplicatesBlocked">0</div>
+        <div class="metric-sub">
+          <span>SHA-256 fingerprint verified</span>
+        </div>
+      </div>
+
+      <div class="metric-card" id="metricCardTemplates">
+        <div class="metric-header">
+          <span class="metric-title">Active Source Queue</span>
+          <div class="metric-icon-wrap cyan">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="metric-value" id="valActiveTemplates">0</div>
+        <div class="metric-sub">
+          <span id="valTemplatesSub">0 total templates configured</span>
+        </div>
+      </div>
+
+      <div class="metric-card" id="metricCardLastTransfer">
+        <div class="metric-header">
+          <span class="metric-title">Last Successful Transfer</span>
+          <div class="metric-icon-wrap success">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="metric-value" style="font-size: 1.35rem; line-height: 1.4;" id="valLastTransferTime">Never</div>
+        <div class="metric-sub">
+          <span id="valLastTransferFile">—</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs" id="navigationTabs">
+      <button class="tab-btn active" data-tab="tabTransfers" id="tabBtnTransfers">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+          <line x1="22" y1="12" x2="2" y2="12"></line>
+          <path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
+        </svg>
+        <span>Transfers & Pipeline</span>
+      </button>
+
+      <button class="tab-btn" data-tab="tabTemplates" id="tabBtnTemplates">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        </svg>
+        <span>Source Queue (<span id="tabCountTemplates">0</span>)</span>
+      </button>
+
+      <button class="tab-btn" data-tab="tabDiagnostics" id="tabBtnDiagnostics">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+        </svg>
+        <span>Diagnostics & Tests</span>
+      </button>
+
+      <button class="tab-btn" data-tab="tabSettings" id="tabBtnSettings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+        </svg>
+        <span>Configuration & Schedule</span>
+      </button>
+
+      <button class="tab-btn" data-tab="tabLogs" id="tabBtnLogs">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+          <polyline points="4 17 10 11 4 5"></polyline>
+          <line x1="12" y1="19" x2="20" y2="19"></line>
+        </svg>
+        <span>Activity Logs</span>
+      </button>
+    </nav>
+
+    <!-- ================= TAB 1: Transfers & Pipeline ================= -->
+    <div class="tab-pane active" id="tabTransfers">
+      
+      <!-- Direct Pipeline Action Card -->
+      <div class="glass-card">
+        <div class="card-title-bar">
+          <div>
+            <h2>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" style="color: #818cf8;">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+              Direct Transfer Pipeline
+            </h2>
+            <div class="subtitle">Drop any source PDF to instantly process via Website A and upload to Website B</div>
+          </div>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <label style="font-size: 0.8rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.4rem; cursor: pointer;">
+              <input type="checkbox" id="checkForceTransfer">
+              <span>Bypass Duplicate Check</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Drop Zone -->
+        <div class="transfer-dropzone" id="directTransferDropZone">
+          <div class="dropzone-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+          </div>
+          <div class="dropzone-title">Drop PDF to Transfer Immediately</div>
+          <div class="dropzone-sub">
+            Drag & drop or <strong>click to select</strong> a PDF file. Website C handles processing & distribution automatically.
+          </div>
+          <input type="file" id="directPdfInput" accept="application/pdf" hidden>
+        </div>
+
+        <!-- Live Pipeline Progress Tracker -->
+        <div class="pipeline-progress-box" id="pipelineProgressBox">
+          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; font-weight: 600;">
+            <span id="pipelineProgressTitle">Processing PDF through Automated Pipeline...</span>
+            <span id="pipelineElapsedTimer" style="font-family: monospace; color: #818cf8;">0.0s</span>
+          </div>
+
+          <div class="pipeline-steps">
+            <div class="pipeline-step" id="stepValidate">
+              <div class="step-indicator">1</div>
+              <div>
+                <strong>Validate & Hash</strong>
+                <div style="font-size: 0.72rem; color: var(--text-dim);">Integrity check</div>
+              </div>
+            </div>
+
+            <div class="pipeline-step" id="stepWebsiteA">
+              <div class="step-indicator">2</div>
+              <div>
+                <strong>Website A</strong>
+                <div style="font-size: 0.72rem; color: var(--text-dim);">Generate dates/chalans</div>
+              </div>
+            </div>
+
+            <div class="pipeline-step" id="stepDeduplicate">
+              <div class="step-indicator">3</div>
+              <div>
+                <strong>Deduplication</strong>
+                <div style="font-size: 0.72rem; color: var(--text-dim);">SHA-256 fingerprint</div>
+              </div>
+            </div>
+
+            <div class="pipeline-step" id="stepWebsiteB">
+              <div class="step-indicator">4</div>
+              <div>
+                <strong>Website B</strong>
+                <div style="font-size: 0.72rem; color: var(--text-dim);">Publish for download</div>
+              </div>
+            </div>
+          </div>
+
+          <div id="pipelineStatusMessage" style="margin-top: 1rem; font-size: 0.85rem; color: #94a3b8;"></div>
+        </div>
+      </div>
+
+      <!-- Transfer History Table -->
+      <div class="glass-card">
+        <div class="card-title-bar">
+          <div>
+            <h2>Transfer Ledger & History</h2>
+            <div class="subtitle">Complete audit trail of all automated and manual transfers</div>
+          </div>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <button class="btn btn-secondary btn-sm" id="btnRefreshTransfers">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <polyline points="23 4 23 10 17 10"></polyline>
+                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+              </svg>
+              <span>Refresh</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="data-table" id="transfersTable">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Generated PDF</th>
+                <th>Original File</th>
+                <th>Size</th>
+                <th>SHA-256 Fingerprint</th>
+                <th>Latency</th>
+                <th>Timestamp</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="transfersTableBody">
+              <tr>
+                <td colspan="8" style="text-align: center; padding: 2.5rem; color: var(--text-dim);">
+                  Loading transfer ledger...
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= TAB 2: Source Templates Queue ================= -->
+    <div class="tab-pane" id="tabTemplates">
+      <div class="glass-card">
+        <div class="card-title-bar">
+          <div>
+            <h2>Source Template Queue</h2>
+            <div class="subtitle">Files uploaded here are automatically processed by Website A on schedule and pushed to Website B</div>
+          </div>
+          <button class="btn btn-primary btn-sm" id="btnUploadTemplateTrigger">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <span>Add Source Template</span>
+          </button>
+          <input type="file" id="templateFileInput" accept="application/pdf" multiple hidden>
+        </div>
+
+        <!-- Template dropzone -->
+        <div class="transfer-dropzone" id="templateDropZone" style="padding: 1.5rem; margin-bottom: 1.5rem;">
+          <div class="dropzone-sub">
+            Drag & drop template PDFs here to queue them for automated scheduling
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="data-table" id="templatesTable">
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Template Name</th>
+                <th>File Size</th>
+                <th>Added Date</th>
+                <th>Last Processed</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="templatesTableBody">
+              <tr>
+                <td colspan="6" style="text-align: center; padding: 2rem; color: var(--text-dim);">
+                  No source templates configured. Add your first PDF template to automate!
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= TAB 3: Diagnostics & Tests ================= -->
+    <div class="tab-pane" id="tabDiagnostics">
+      <div class="diagnostics-grid">
+        
+        <!-- Website A Diagnostic Card -->
+        <div class="diag-card" id="diagCardA">
+          <div class="diag-header">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="color: #818cf8;">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              Website A (Generator)
+            </h3>
+            <span class="badge badge-pending" id="diagStatusBadgeA">Untested</span>
+          </div>
+          <div class="diag-url" id="diagUrlA">https://pdf-editorx.onrender.com</div>
+          <div class="diag-details">
+            Role: Processes source PDFs and generates shifted dates & chalan numbers.<br>
+            Endpoint: <code style="color: #c7d2fe;">POST /process</code><br>
+            Download: <code style="color: #c7d2fe;">GET /download/:file_id?fname=...</code>
+          </div>
+          <div class="diag-status-box" id="diagResultBoxA">
+            Click "Test Website A" to perform live ping and API endpoint probe.
+          </div>
+          <button class="btn btn-secondary btn-full" id="btnTestA" style="width: 100%;">
+            <span>Test Website A Connection</span>
+          </button>
+        </div>
+
+        <!-- Website B Diagnostic Card -->
+        <div class="diag-card" id="diagCardB">
+          <div class="diag-header">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="color: #06b6d4;">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              Website B (Receiver & Users)
+            </h3>
+            <span class="badge badge-pending" id="diagStatusBadgeB">Untested</span>
+          </div>
+          <div class="diag-url" id="diagUrlB">https://pdf-sender-iaa4.onrender.com</div>
+          <div class="diag-details">
+            Role: Distributes PDFs to end-users via authenticated dashboard.<br>
+            Auth: <code style="color: #c7d2fe;">POST /api/auth/login</code> (Role: uploader)<br>
+            Upload: <code style="color: #c7d2fe;">POST /api/files/upload</code>
+          </div>
+          <div class="diag-status-box" id="diagResultBoxB">
+            Click "Test Website B" to test JWT login and verify uploader privileges.
+          </div>
+          <button class="btn btn-secondary btn-full" id="btnTestB" style="width: 100%;">
+            <span>Test Website B Connection</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Comprehensive Pipeline Self-Test -->
+      <div class="glass-card">
+        <div class="card-title-bar">
+          <div>
+            <h2>End-to-End Pipeline Health Check</h2>
+            <div class="subtitle">Validates both websites simultaneously to guarantee full automation readiness</div>
+          </div>
+          <button class="btn btn-primary" id="btnRunFullDiagnostic">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+            <span>Run Complete Diagnostic</span>
+          </button>
+        </div>
+        <div id="fullDiagnosticOutput" style="background: rgba(10, 12, 22, 0.7); border-radius: var(--radius-md); padding: 1.25rem; font-family: monospace; font-size: 0.82rem; color: #cbd5e1; border: 1px solid var(--border-subtle); min-height: 80px;">
+          Ready to run diagnostics. Click above to verify full system integrity.
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= TAB 4: Automation & Settings ================= -->
+    <div class="tab-pane" id="tabSettings">
+      <div class="glass-card">
+        <div class="card-title-bar">
+          <div>
+            <h2>Automation & Connection Configuration</h2>
+            <div class="subtitle">All credentials and endpoints are securely stored and executed on the backend server</div>
+          </div>
+          <button class="btn btn-primary" id="btnSaveSettings">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+              <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+              <polyline points="17 21 17 13 7 13 7 21"></polyline>
+              <polyline points="7 3 7 8 15 8"></polyline>
+            </svg>
+            <span>Save Settings</span>
+          </button>
+        </div>
+
+        <form id="settingsForm">
+          <div class="form-grid">
+            
+            <!-- Scheduling Settings -->
+            <div style="grid-column: 1 / -1; background: rgba(99, 102, 241, 0.05); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid rgba(99, 102, 241, 0.2);">
+              <h3 style="font-size: 1rem; margin-bottom: 0.85rem; color: #c7d2fe; display: flex; align-items: center; gap: 0.5rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                Server-Side Automation Scheduler
+              </h3>
+              
+              <div style="display: flex; gap: 1.5rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap;">
+                <label style="font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+                  <input type="checkbox" id="settingScheduleEnabled" checked>
+                  <span>Enable Automatic Scheduled Background Transfers</span>
+                </label>
+
+                <div style="display: flex; gap: 0.5rem;">
+                  <button type="button" class="btn btn-secondary btn-sm" id="btnStartScheduler">Start Scheduler</button>
+                  <button type="button" class="btn btn-danger btn-sm" id="btnStopScheduler">Stop Scheduler</button>
+                </div>
+              </div>
+
+              <div class="form-group" style="margin-bottom: 0;">
+                <label for="settingScheduleInterval">Cron Schedule Expression</label>
+                <input type="text" class="form-control" id="settingScheduleInterval" value="0 * * * *">
+                <div class="cron-presets">
+                  <span class="preset-chip" data-cron="*/2 * * * *">⚡ Every 2 min</span>
+                  <span class="preset-chip" data-cron="*/15 * * * *">Every 15 min</span>
+                  <span class="preset-chip" data-cron="*/30 * * * *">Every 30 min</span>
+                  <span class="preset-chip" data-cron="0 * * * *">Every 1 Hour (Default)</span>
+                  <span class="preset-chip" data-cron="0 */6 * * *">Every 6 Hours</span>
+                  <span class="preset-chip" data-cron="0 0 * * *">Once Daily (Midnight)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Website A Configuration -->
+            <div>
+              <h3 style="font-size: 0.95rem; margin-bottom: 1rem; color: #818cf8;">Website A Settings (PDF Generator)</h3>
+              
+              <div class="form-group">
+                <label for="settingWebsiteAUrl">Website A Base URL</label>
+                <input type="url" class="form-control" id="settingWebsiteAUrl" placeholder="https://pdf-editorx.onrender.com" required>
+                <div class="hint">The base domain of your PDF generation website</div>
+              </div>
+
+              <div class="form-group">
+                <label for="settingWebsiteAProcessEndpoint">Process Endpoint</label>
+                <input type="text" class="form-control" id="settingWebsiteAProcessEndpoint" placeholder="/process" required>
+                <div class="hint">Receives multipart <code>pdf_file</code> and returns JSON with <code>file_id</code></div>
+              </div>
+            </div>
+
+            <!-- Website B Configuration -->
+            <div>
+              <h3 style="font-size: 0.95rem; margin-bottom: 1rem; color: #06b6d4;">Website B Settings (Receiver & Distribution)</h3>
+              
+              <div class="form-group">
+                <label for="settingWebsiteBUrl">Website B Base URL</label>
+                <input type="text" class="form-control" id="settingWebsiteBUrl" placeholder="https://pdf-sender-iaa4.onrender.com" required>
+                <div class="hint">Base domain or port where pdf-sender is hosted</div>
+              </div>
+
+              <div class="form-group">
+                <label for="settingWebsiteBEmail">Uploader Account Email</label>
+                <input type="email" class="form-control" id="settingWebsiteBEmail" placeholder="foradvance685@gmail.com" required>
+                <div class="hint">Account with "uploader" role on Website B</div>
+              </div>
+
+              <div class="form-group">
+                <label for="settingWebsiteBPassword">Uploader Account Password</label>
+                <input type="password" class="form-control" id="settingWebsiteBPassword" placeholder="•••••••• (leave blank to keep current)">
+                <div class="hint">Stored in server memory / env only; never sent back to frontend</div>
+              </div>
+            </div>
+
+            <!-- Reliability & Security Settings -->
+            <div style="grid-column: 1 / -1;">
+              <h3 style="font-size: 0.95rem; margin-bottom: 1rem; color: #a855f7;">Reliability & Fault Tolerance</h3>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+                <div class="form-group">
+                  <label for="settingMaxRetries">Max Retry Attempts</label>
+                  <input type="number" class="form-control" id="settingMaxRetries" min="1" max="10" value="3">
+                  <div class="hint">Number of times to retry temporary timeouts or 5xx errors</div>
+                </div>
+
+                <div class="form-group">
+                  <label for="settingTimeoutMs">Request Timeout (ms)</label>
+                  <input type="number" class="form-control" id="settingTimeoutMs" min="5000" max="120000" step="1000" value="45000">
+                  <div class="hint">Maximum wait time per HTTP request (e.g. 45000 for 45s)</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ================= TAB 5: Activity Logs ================= -->
+    <div class="tab-pane" id="tabLogs">
+      <div class="glass-card">
+        <div class="card-title-bar">
+          <div>
+            <h2>Real-Time Activity & Audit Console</h2>
+            <div class="subtitle">Live server logs with safe credential redaction and level filtering</div>
+          </div>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            <select id="logLevelFilter" class="form-control" style="width: auto; padding: 0.4rem 0.8rem; font-size: 0.8rem;">
+              <option value="all">All Levels</option>
+              <option value="success">Success Only</option>
+              <option value="info">Info</option>
+              <option value="warn">Warnings</option>
+              <option value="error">Errors</option>
+            </select>
+            <button class="btn btn-secondary btn-sm" id="btnRefreshLogs">Refresh</button>
+            <button class="btn btn-ghost btn-sm" id="btnClearLogs">Clear</button>
+          </div>
+        </div>
+
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div style="font-size: 0.72rem; color: var(--text-dim); font-family: monospace;">website-c-hub.log</div>
+            <div style="font-size: 0.72rem; color: var(--text-muted);" id="logStatusText">Auto-polling active</div>
+          </div>
+          <div class="terminal-body" id="terminalLogsContainer">
+            <div class="log-line">
+              <span class="log-time">[Init]</span>
+              <span class="log-cat SYSTEM">SYSTEM</span>
+              <span class="log-msg">Waiting for activity logs...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ================= Admin Login Modal ================= -->
+  <div class="modal-overlay hidden" id="loginModal">
+    <div class="modal-card">
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <div class="brand-icon" style="margin: 0 auto 0.85rem; width: 48px; height: 48px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="26" height="26">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+        </div>
+        <h2 style="font-size: 1.35rem; font-weight: 700;">Administrator Access</h2>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+          Sign in to Website C to configure automation & transfers
+        </p>
+      </div>
+
+      <form id="adminLoginForm">
+        <div class="form-group">
+          <label for="adminUsernameInput">Admin Username</label>
+          <input type="text" class="form-control" id="adminUsernameInput" value="admin" required autofocus>
+        </div>
+
+        <div class="form-group">
+          <label for="adminPasswordInput">Admin Password</label>
+          <input type="password" class="form-control" id="adminPasswordInput" value="admin12345" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full" id="btnAdminLoginSubmit" style="width: 100%; margin-top: 0.5rem;">
+          <span>Sign In to Dashboard</span>
+        </button>
+
+        <div id="loginErrorMessage" style="margin-top: 1rem; font-size: 0.82rem; color: var(--danger); text-align: center; display: none;"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
