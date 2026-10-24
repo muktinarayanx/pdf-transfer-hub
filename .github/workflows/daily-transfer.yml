@@ -1,9 +1,9 @@
-name: Daily PDF Transfer Bridge (11:00 PM IST)
+name: Daily PDF Transfer Bridge (11:25 PM IST)
 
 on:
   schedule:
-    # 17:30 UTC = 11:00 PM IST (Indian Standard Time, UTC+5:30)
-    - cron: '30 17 * * *'
+    # 17:55 UTC = 11:25 PM IST (Indian Standard Time, UTC+5:30)
+    - cron: '55 17 * * *'
   # Allows manual 1-click trigger anytime from the Actions tab
   workflow_dispatch:
   # Re-register schedule when workflow file is updated
