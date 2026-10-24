@@ -6,6 +6,10 @@ on:
     - cron: '30 17 * * *'
   # Allows manual 1-click trigger anytime from the Actions tab
   workflow_dispatch:
+  # Re-register schedule when workflow file is updated
+  push:
+    paths:
+      - '.github/workflows/daily-transfer.yml'
 
 permissions:
   contents: write
@@ -13,6 +17,8 @@ permissions:
 jobs:
   daily-transfer:
     name: Process & Upload Daily PDF
+    # Skip the job if triggered by a push event (only re-registers the schedule)
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -20,6 +26,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
 
       - name: Setup Node.js 20
@@ -40,4 +47,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add template/active_template.pdf template/last_transfer.json
-          git diff --staged --quiet || (git commit -m "chore(cron): auto-advance PDF template for next day [skip ci]" && git push)
+          git diff --staged --quiet || (git commit -m "chore(cron): auto-advance PDF template [$(date -u +%Y-%m-%d)]" && git push)
